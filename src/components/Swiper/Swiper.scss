@@ -31,4 +31,16 @@
       }
     }
   }
+
+  .overlay {
+      width:100%;
+      position: absolute;
+      bottom:-5px;
+      z-index: 10;
+      pointer-events: none;
+
+      img {
+          width: 100%;
+      }
+  }
 }

@@ -9,6 +9,7 @@ import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 
 import Jagode from '../../assets/images/swiper-jagode.jpg'
+import Overlay from '../../assets/images/overlay.png'
 
 import "./Swiper.scss";
 
@@ -39,6 +40,7 @@ const swiper = (props) => {
         {slike}
         {slike}
       </Swiper>
+      <div className="overlay"><img src={Overlay} alt="Jagode" /></div>
       <div className="pagination-swiper" />
     </div>
   );
