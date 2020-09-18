@@ -1,0 +1,34 @@
+.SwiperPocetna {
+  position: relative;
+
+  .swiper-slide {
+    height: 60vh;
+    img {
+      width: 100%;
+    }
+  }
+
+  .pagination-swiper {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+
+    span {
+      background: white;
+      border-radius: 0;
+      width: 15px;
+      height: 15px;
+      transform: rotate(45deg);
+      margin:15px 0;
+      opacity: 1;
+
+      &.swiper-pagination-bullet-active{
+          background:#b2cb06!important;
+      }
+    }
+  }
+}
