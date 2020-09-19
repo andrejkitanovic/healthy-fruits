@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import './Partneri.scss'
 
 import {Link} from 'react-router-dom'
@@ -15,6 +15,10 @@ const Partneri = (props) => {
     { img: Partner },
     { img: Partner },
   ]);
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
 
   return (
     <div className="Partneri">

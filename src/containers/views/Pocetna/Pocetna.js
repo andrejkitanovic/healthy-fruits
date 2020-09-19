@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 
 import Swiper from "../../../components/Swiper/Swiper";
 import Onama from "../../../components/Pocetna/Onama/Onama";
@@ -9,6 +9,10 @@ import Jagode from "../../../assets/images/swiper-jagode.jpg";
 
 const Pocetna = (props) => {
   const [swiperGlavni,] = useState([{img:Jagode},{img:Jagode},{img:Jagode},{img:Jagode}]);
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
 
   return (
     <div className="Pocetna">

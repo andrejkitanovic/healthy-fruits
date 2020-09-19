@@ -18,6 +18,10 @@ const Onama = (props) => {
   const [activeImage, setActiveImage] = useState(0);
 
   useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
+  
+  useEffect(() => {
     const changeActiveImage = () => {
       if (activeImage < 3) {
         setActiveImage((p) => p + 1);
