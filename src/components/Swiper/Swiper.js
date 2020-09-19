@@ -1,47 +1,50 @@
- import React from "react";
+import React from "react";
 
-import SwiperCore, { Pagination , Autoplay} from "swiper";
+import SwiperCore, { Pagination, Autoplay } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/swiper.scss";
-import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 
-import Jagode from '../../assets/images/swiper-jagode.jpg'
-import Overlay from '../../assets/images/overlay.png'
+// import Jagode from "../../assets/images/swiper-jagode.jpg";
+import Overlay from "../../assets/images/overlay.png";
+import Logo from "../../assets/images/logo-swiper.png";
 
 import "./Swiper.scss";
 
-SwiperCore.use([ Pagination, Autoplay]);
+SwiperCore.use([Pagination, Autoplay]);
 
 const swiper = (props) => {
-
-  const slike = ( <SwiperSlide>
-      <img src={Jagode} alt="vest" />
-  </SwiperSlide>)
+  const slike = props.content.map((slika,index) => (
+    <SwiperSlide key={index} style={{height:props.height}}>
+      <img src={slika.img} alt="vest" />
+    </SwiperSlide>
+  ));
 
   return (
-    <div  className="SwiperPocetna">
+    <div className={"SwiperPocetna"}>
       <Swiper
-       
-        pagination={{ clickable: true, 
-            el: ".pagination-swiper"
-         }}
+        pagination={{ clickable: true }}
         slidesPerView={1}
         autoplay={{
-          delay:4000,
-          disableOnInteraction:false
+          delay: 4000,
+          disableOnInteraction: false,
         }}
         centeredSlides
         loop="true"
       >
         {slike}
-        {slike}
-        {slike}
       </Swiper>
-      <div className="overlay"><img src={Overlay} alt="Jagode" /></div>
-      <div className="pagination-swiper" />
+      {props.minilogo ? <img className="mini-logo" src={Logo} alt="Healthy food" /> : null}
+      {props.logo ? (
+        <img className="logo" src={Logo} alt="Healthy food" />
+      ) : null}
+      {props.overlay ? (
+        <div className="overlay">
+          <img src={Overlay} alt="Jagode" />
+        </div>
+      ) : null}
     </div>
   );
 };

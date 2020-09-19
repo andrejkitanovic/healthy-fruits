@@ -1,0 +1,29 @@
+.Onama-Onama {
+    h2{
+        margin:20px 15%;
+    }
+
+    p {
+        margin-top:50px;
+    }
+
+    .saSlikom{
+        display:flex;
+        width: 70%;
+        margin:80px auto;
+        // align-items: center;
+        justify-content: space-between;
+
+        p{
+            margin:0;
+        }
+
+        img{
+            width: 400px;
+            border-radius: 5px;
+            border:2px solid #b2cb06;
+            margin-left: 40px;
+            box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+        }
+    }
+}

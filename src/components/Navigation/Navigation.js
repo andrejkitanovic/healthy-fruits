@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navigation.scss'
 import {NavLink} from 'react-router-dom'
-import Logo from '../../assets/images/logo.jpg'
+import Logo from '../../assets/images/logo.png'
 
 const navigation = props => (
     <div className="Navigation">

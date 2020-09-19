@@ -1,0 +1,41 @@
+.Pocetna-Onama {
+    text-align: center;
+    height: auto;
+ 
+    a {
+        display: inline-block;
+        position: relative;
+        color:white;
+        background:#b2cb06;
+        border:none;
+        font-size:17px;
+        margin-top:50px;
+        padding:15px 35px;
+        border-radius: 40px;
+        transition: .2s;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top:0;
+            right:0;
+            background:linear-gradient( #899d08, #899d08 );
+            height:100%;
+            width:100%;
+            border-radius: 90px;
+            transition: .2s;
+            z-index:-1;
+        }
+
+        &:hover {
+            margin-left:-25px;
+        }
+
+        &:hover:after {
+            transform: translateX(25px);
+        }
+    }
+}
