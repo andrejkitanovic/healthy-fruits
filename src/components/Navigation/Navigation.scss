@@ -25,3 +25,11 @@
         }
     }
 }
+
+@media(max-width:1024px){
+    .Navigation{
+        .links {
+            display:none;
+        }
+    }
+}

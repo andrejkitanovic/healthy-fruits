@@ -5,6 +5,7 @@
 
     .pozadina{
         position: absolute;
+        bottom:0;
         min-width: 100%;
         z-index: -1;
     }
@@ -39,9 +40,9 @@
 
         img {
             position: relative;
-            top:40%;
+            top:50%;
             transform: translateY(-50%);
-            width: 200px;
+            width: 150px;
             filter: drop-shadow(5px 5px 20px rgba(0,0,0,0.5));
         }
     }

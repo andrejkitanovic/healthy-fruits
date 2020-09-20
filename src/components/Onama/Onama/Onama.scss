@@ -11,7 +11,6 @@
         display:flex;
         width: 70%;
         margin:80px auto;
-        // align-items: center;
         justify-content: space-between;
 
         p{
@@ -19,7 +18,8 @@
         }
 
         img{
-            width: 400px;
+            // width: 400px;
+            width: auto;
             border-radius: 5px;
             border:2px solid #b2cb06;
             margin-left: 40px;
