@@ -1,0 +1,14 @@
+.SideMenu {
+    position: fixed;
+    width: 60%;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: .3s;
+    overflow: hidden;
+
+    &.active {
+        transform: translateX(0)!important;
+    }
+}
