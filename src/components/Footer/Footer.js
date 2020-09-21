@@ -6,6 +6,8 @@ import {Link} from 'react-router-dom'
 import Pozadina from "../../assets/images/footer-pozadina.png";
 import Logo from "../../assets/images/logo.png";
 
+import {MdMail,MdPhone , MdLocationOn} from 'react-icons/md'
+
 const footer = (props) => (
   <div className="Footer">
     <img className="pozadina" src={Pozadina} alt="Footer" />
@@ -16,13 +18,13 @@ const footer = (props) => (
         <Link to="/">Pocetna</Link>
         <Link to="/o-nama">O nama</Link>
         <Link to="/proizvodi">Proizvodi</Link>
-        <Link to="/nasi-partneri">Nasi partneri</Link>
+        <Link to="/partneri">Nasi partneri</Link>
       </div>
-      <div>
+      <div className="kontakt">
         <h4>Kontakt</h4>
-        <p>info@email.com</p>
-        <p>+381 69-333-555</p>
-        <p>Ul. Stanoje B. 38</p>
+        <a href="mailto:info@email.com"><MdMail /> info@email.com</a>
+        <a href="tel:+38169333555"><MdPhone /> +381 69-333-555</a>
+        <p><MdLocationOn /> Ul. Stanoje B. 38</p>
       </div>
       <iframe
         title="mapa"

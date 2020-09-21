@@ -17,14 +17,27 @@
 
     .grid {
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-column-gap: 100px;
-        padding:10% 0;
+        grid-template-columns: 1fr 1fr 1.5fr 1fr;
+        padding:250px 0 0 0;
         max-width: 1200px;
         margin:0 auto;
 
+        .kontakt {
+            p,a {
+                display:flex;
+                justify-content: flex-start;
+                align-items: center;
+                font-weight: normal;
+
+                svg{
+                    font-size: 25px;
+                    margin-right: 10px;
+                    margin-top: 5px;
+                }
+            }
+        }
+
         h4{
-            // border-bottom: 2px solid #b2cb06;
             color:#7f8f10;
             padding-bottom: 10px;
             margin-bottom: 10px;
@@ -36,6 +49,7 @@
             text-decoration: none;
             display:block;
             color: #828571;
+            padding:0 20px;
         }
 
         p,a {
@@ -45,12 +59,14 @@
         iframe {
             border-radius: 20px;
             border:3px solid #c3d65b;
+            width: 100%;
         }
 
         img {
             position: relative;
             top:40%;
-            transform: translateY(-50%);
+            left:50%;
+            transform: translate(-50%,-50%);
             width: 150px;
             filter: drop-shadow(5px 5px 20px rgba(0,0,0,0.5));
         }
@@ -59,12 +75,12 @@
     .copyright{
         position: absolute;
         text-align: center;
-        background:black;
+        background:#b2cb06;
         bottom:0;
         width: 100%;
         opacity: 0.8;
         p{
-            font-size: 18px;
+            font-size: 12px;
             color: white;
             padding:5px;
         }

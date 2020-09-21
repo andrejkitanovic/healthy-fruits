@@ -6,24 +6,26 @@ import Voce from '../../../assets/images/voce.png'
 import Povrce from '../../../assets/images/povrce.png'
 import Proizvod from '../../../assets/images/proizvod.png'
 
+import {Link} from 'react-router-dom'
+
 
 const nasiProizvodi = (props) => (
   <div className="NasiProizvodi">
     <img className="pozadina" src={Pozadina} alt="Proizvodi" />
     <h2>Nasi Proizvodi</h2>
     <div className="proizvodi">
-      <div>
+      <Link to="/voce">
         <img src={Voce} alt="Voce" />
         <p>Voce</p>
-      </div>
-      <div>
+      </Link>
+      <Link to="/povrce">
         <img src={Povrce} alt="Voce" />
         <p>Povrce</p>
-      </div>
-      <div>
+      </Link>
+      <Link to="/proizvodi">
         <img src={Proizvod} alt="Voce"  style={{marginLeft:"15px"}}/> 
         <p>Proizvodi</p>
-      </div>
+      </Link>
     </div>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
   </div>

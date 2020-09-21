@@ -14,9 +14,10 @@
     margin: 80px auto;
 
 
-    div {
+    a {
       transition: 0.3s ease-in-out;
       cursor: pointer;
+      text-decoration: none;
       &:hover {
         transform: scale(1.2);
       }
@@ -39,9 +40,10 @@
   .pozadina {
     position: absolute;
     z-index: -1;
-    width: 100%;
-    min-height: 100%;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 100%;
+    min-height: 100%;
   }
 }

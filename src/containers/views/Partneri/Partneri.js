@@ -8,6 +8,8 @@ import NasiPartneri from "../../../components/Partneri/NasiPartneri/NasiPartneri
 import Partner from "../../../assets/images/swiper-partner.png";
 import ZagarantovanKvalitet from '../../../components/Pocetna/ZagarantovanKvalitet/ZagarantovanKvalitet'
 
+import {MdKeyboardArrowRight} from 'react-icons/md'
+
 const Partneri = (props) => {
   const [swiperGlavni] = useState([
     { img: Partner },
@@ -25,7 +27,7 @@ const Partneri = (props) => {
       <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="Nasi partneri"/>
       <NasiPartneri />
       <ZagarantovanKvalitet />
-      <Link to="/kontakt">Kontaktirajte nas</Link>
+      <Link to="/kontakt">Kontaktirajte nas <MdKeyboardArrowRight /></Link>
     </div>
   );
 };

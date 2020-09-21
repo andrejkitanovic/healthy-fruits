@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 import PageLayout from './hoc/PageLayout/PageLayout'
-import './App.scss';
+import './App.scss'
 
-import {Switch,Route,BrowserRouter} from 'react-router-dom'
+import { Switch, Route, BrowserRouter, Redirect } from 'react-router-dom'
 
 import Pocetna from './containers/views/Pocetna/Pocetna'
 import Onama from './containers/views/Onama/Onama'
@@ -10,25 +10,27 @@ import Partneri from './containers/views/Partneri/Partneri'
 import Kontakt from './containers/views/Kontakt/Kontakt'
 import Voce from './containers/views/Voce/Voce'
 import Povrce from './containers/views/Povrce/Povrce'
+import Proizvodi from './containers/views/Proizvodi/Proizvodi'
 
 function App() {
-
   return (
     <div className="App">
       <BrowserRouter>
-      <PageLayout>
-        <Switch>
-          <Route path="/" exact component={Pocetna} />
-          <Route path="/o-nama" component={Onama} />
-          <Route path="/partneri" component={Partneri} />
-          <Route path="/kontakt" component={Kontakt} />
-          <Route path="/voce" component={Voce} />
-          <Route path="/povrce" component={Povrce} />
-        </Switch>
-      </PageLayout>
+        <PageLayout>
+          <Switch>
+            <Route path="/" exact component={Pocetna} />
+            <Route path="/o-nama" component={Onama} />
+            <Route path="/partneri" component={Partneri} />
+            <Route path="/kontakt" component={Kontakt} />
+            <Route path="/voce" component={Voce} />
+            <Route path="/povrce" component={Povrce} />
+            <Route path="/proizvodi" component={Proizvodi} />
+            <Redirect to="/" />
+          </Switch>
+        </PageLayout>
       </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -2,6 +2,11 @@
   position: relative;
   margin-top: 100px;
 
+  .swiper-container {
+    max-width: 1200px;
+    margin:0 auto;
+  }
+
   .swiper-slide {
     position: relative;
     img {

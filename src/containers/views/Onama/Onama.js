@@ -37,6 +37,10 @@ const Onama = (props) => {
     return () => clearInterval(changeImage);
   }, [activeImage]);
 
+  const clickActiveImage = position => {
+    setActiveImage(position)
+  }
+
 
 
   return (
@@ -44,7 +48,7 @@ const Onama = (props) => {
       <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="O nama" />
 
       <ComponentOnama />
-      <Display content={swiperGlavni} active={activeImage} />
+      <Display content={swiperGlavni} active={activeImage} click={clickActiveImage}/>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
