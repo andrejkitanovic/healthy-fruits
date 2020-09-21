@@ -5,4 +5,24 @@
     margin:0 auto;
     border-bottom: 2px solid #e7e7e7;
     padding-bottom: 30px;
+
+    a{
+        margin:0 auto;
+        color:#828571;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    p,a {
+        display:flex;
+        align-items: center;
+
+        svg{
+            font-size: 30px;
+            margin-top: 5px;
+            margin-right: 10px;
+            color:#b2cb06;
+        }
+    }
+    
 }
