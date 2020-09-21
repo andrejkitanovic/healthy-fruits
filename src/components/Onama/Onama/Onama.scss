@@ -1,6 +1,8 @@
 .Onama-Onama {
     h2{
-        margin:20px 15%;
+        // margin:20px 15%;
+        max-width: 1200px;
+        margin:0 auto;
     }
 
     p {
@@ -9,7 +11,8 @@
 
     .saSlikom{
         display:flex;
-        width: 70%;
+        // width: 70%;
+        max-width: 1200px;
         margin:80px auto;
         justify-content: space-between;
 

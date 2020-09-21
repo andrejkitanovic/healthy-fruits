@@ -22,7 +22,7 @@ const Kontakt = (props) => {
 
   return (
     <div className="Kontakt">
-      <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" />
+      <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="Kontakt" />
       <NasKontakt />
       <div className="formaIMapa">
           <KontaktForma />

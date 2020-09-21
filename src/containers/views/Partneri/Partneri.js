@@ -22,7 +22,7 @@ const Partneri = (props) => {
 
   return (
     <div className="Partneri">
-      <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" />
+      <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="Nasi partneri"/>
       <NasiPartneri />
       <ZagarantovanKvalitet />
       <Link to="/kontakt">Kontaktirajte nas</Link>

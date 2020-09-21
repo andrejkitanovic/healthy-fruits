@@ -9,6 +9,7 @@ import "swiper/components/pagination/pagination.scss";
 
 // import Jagode from "../../assets/images/swiper-jagode.jpg";
 import Overlay from "../../assets/images/overlay.png";
+import OverlayTop from "../../assets/images/overlay-top.png"
 import Logo from "../../assets/images/logo-swiper.png";
 
 import "./Swiper.scss";
@@ -36,6 +37,7 @@ const swiper = (props) => {
       >
         {slike}
       </Swiper>
+      {props.title ? <h1 className="title">{props.title}</h1> : null}
       {props.minilogo ? <img className="mini-logo" src={Logo} alt="Healthy food" /> : null}
       {props.logo ? (
         <img className="logo" src={Logo} alt="Healthy food" />
@@ -43,6 +45,11 @@ const swiper = (props) => {
       {props.overlay ? (
         <div className="overlay">
           <img src={Overlay} alt="Jagode" />
+        </div>
+      ) : null}
+      {props.overlayTop ? (
+        <div className="overlay-top">
+          <img src={OverlayTop} alt="Jagode" />
         </div>
       ) : null}
     </div>

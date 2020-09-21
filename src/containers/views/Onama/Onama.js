@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import './Onama.scss'
 
 import Swiper from "../../../components/Swiper/Swiper";
 import ComponentOnama from "../../../components/Onama/Onama/Onama";
@@ -40,7 +41,7 @@ const Onama = (props) => {
 
   return (
     <div className="Onama">
-      <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" />
+      <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="O nama" />
 
       <ComponentOnama />
       <Display content={swiperGlavni} active={activeImage} />

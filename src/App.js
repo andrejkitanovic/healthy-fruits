@@ -8,6 +8,8 @@ import Pocetna from './containers/views/Pocetna/Pocetna'
 import Onama from './containers/views/Onama/Onama'
 import Partneri from './containers/views/Partneri/Partneri'
 import Kontakt from './containers/views/Kontakt/Kontakt'
+import Voce from './containers/views/Voce/Voce'
+import Povrce from './containers/views/Povrce/Povrce'
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
           <Route path="/o-nama" component={Onama} />
           <Route path="/partneri" component={Partneri} />
           <Route path="/kontakt" component={Kontakt} />
+          <Route path="/voce" component={Voce} />
+          <Route path="/povrce" component={Povrce} />
         </Switch>
       </PageLayout>
       </BrowserRouter>

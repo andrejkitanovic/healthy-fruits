@@ -21,7 +21,7 @@ const nasiProizvodi = (props) => (
         <p>Povrce</p>
       </div>
       <div>
-        <img src={Proizvod} alt="Voce"  style={{marginLeft:"50px"}}/> 
+        <img src={Proizvod} alt="Voce"  style={{marginLeft:"15px"}}/> 
         <p>Proizvodi</p>
       </div>
     </div>

@@ -1,5 +1,6 @@
 .App {
   position: relative;
+
   h2 {
     font-size: 28px;
     color: #b2cb06;
@@ -8,12 +9,14 @@
   p {
     font-size: 20px;
     color: #828571;
-    margin: 0 15%;
+    margin: 0 auto;
+    max-width: 1200px;
   }
 
   h4 {
     font-size:25px;
     color: #828571;
-    margin:0 15%;
+    max-width: 1200px;
+    margin:0 auto;
   }
 }

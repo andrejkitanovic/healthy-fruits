@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import './Pocetna.scss'
 
 import Swiper from "../../../components/Swiper/Swiper";
 import Onama from "../../../components/Pocetna/Onama/Onama";
