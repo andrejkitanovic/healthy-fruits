@@ -19,12 +19,14 @@ const swiper = (props) => {
     </SwiperSlide>
   ));
 
+  console.log(window.innerWidth)
+
   return (
     <div className={"SwiperVoce"} >
       <Swiper
       navigation
         pagination={{ clickable: true }}
-        slidesPerView={4}
+        slidesPerView={window.innerWidth < 1024 ? 2 : 4}
         freeMode
         autoplay={{
           delay: 2000,
