@@ -11,6 +11,15 @@
 
         img{
             margin:0 auto;
+            max-width: 90%;
+        }
+    }
+}
+
+@media (max-width:1024px){
+    .ZagarantovanKvalitet{
+        .sertifikati{
+            width: 90%;
         }
     }
 }

@@ -92,3 +92,11 @@
     pointer-events: none;
   }
 }
+
+@media (max-width:1024px){
+  .SwiperPocetna {
+    .swiper-slide{
+      max-height: 60vh!important;
+    }
+  }
+}

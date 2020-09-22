@@ -34,6 +34,13 @@
                 transform: translateX(-50%) translateY(0);
             }
         }
+    }   
+}
+
+@media(max-width:1024px){
+    .KategorijaVoca{
+        p{
+            font-size: 18px;
+        }
     }
-    
 }

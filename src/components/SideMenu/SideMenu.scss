@@ -1,4 +1,5 @@
 .SideMenu {
+    display:none;
     position: fixed;
     width: 60%;
     height: 100%;
@@ -8,7 +9,63 @@
     transition: .3s;
     overflow: hidden;
 
+    img{
+        display: block;
+        width: 80px;
+        margin:0 auto;
+        padding:30px 20px;
+    }
+
     &.active {
         transform: translateX(0)!important;
+    }
+
+    .links {
+        a {
+            display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #848484;
+    font-weight: bold;
+    background: #f5f5f5;
+    padding: 15px 25px;
+    border-bottom: 2px solid white;
+    letter-spacing: 1px;
+            &.active{
+                background: #7fbe41;
+                color:#fff;
+            }
+        }
+    }
+
+    .kontakt {
+        height: 100%;
+        background:#f5f5f5;
+
+        padding:20% 0;
+        p,a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            color:#848484;
+            font-size: 20px;
+            // font-weight: bold;
+            margin-bottom: 10px;
+
+            svg {
+                fill:#7fbe41;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .SideMenu{
+        display:block;
     }
 }

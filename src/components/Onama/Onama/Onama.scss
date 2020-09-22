@@ -22,11 +22,27 @@
 
         img{
             // width: 400px;
+            // max-width: 90%;
             width: auto;
             border-radius: 5px;
             border:2px solid #b2cb06;
             margin-left: 40px;
             box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+        }
+    }
+}
+
+@media (max-width:1024px){
+    .Onama-Onama{
+        .saSlikom{
+            display:block;
+
+            img{
+                margin-top:50px;
+                width: 90%;
+                margin-left:5%;
+                margin-right: 5%;
+            }
         }
     }
 }

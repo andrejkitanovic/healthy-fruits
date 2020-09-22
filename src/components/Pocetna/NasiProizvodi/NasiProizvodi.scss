@@ -47,3 +47,17 @@
     min-height: 100%;
   }
 }
+
+@media (max-width:1024px){
+  .NasiProizvodi {
+    .proizvodi{
+      img{
+        height: 70px;
+      }
+
+      p{
+        font-size: 20px;
+      }
+    }
+  }
+}

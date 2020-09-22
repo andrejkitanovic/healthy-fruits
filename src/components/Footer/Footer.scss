@@ -86,3 +86,24 @@
         }
     }
 }
+
+@media (max-width: 1024px){
+    .Footer {
+        .grid {
+            display:block;
+
+            h4{
+                display:none;
+            }
+            p,a{
+                display:none!important;
+            }
+            iframe{
+                display:none;
+            }
+            img{
+                top:5vh!important;
+            }
+        }
+    }
+}
