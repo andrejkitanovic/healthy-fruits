@@ -1,12 +1,13 @@
 .Kontakt {
     padding-bottom: 65vh;
     .formaIMapa {
-        width: 1200px;
+        max-width: 1200px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin:0 auto;
         margin-top:50px;
         padding:0 20px;
+        grid-column-gap: 20px;
 
         iframe{
             margin:0 auto;
@@ -15,6 +16,20 @@
             border-radius: 10px;
             border:2px solid #b2cb06;
             box-shadow: 0px 0px 15px gray;
+        }
+    }
+}
+
+@media (max-width:1024px){
+    .Kontakt{
+        .formaIMapa{
+            display:block;
+            width: 80%;
+
+            iframe{
+                width: 100%;
+                height: 300px;
+            }
         }
     }
 }

@@ -15,6 +15,7 @@ const sideMenu = (props) => (
       <NavLink to="/povrce">Povrce</NavLink>
       <NavLink to="/proizvodi">Proizvodi</NavLink>
       <NavLink to="/partneri">Nasi partneri</NavLink>
+      <NavLink to="/kontakt">Kontakt</NavLink>
     </div>
     <div className="kontakt">
         <a href="mailto:info@email.com"><MdMail /></a>

@@ -16,6 +16,7 @@
     p,a {
         display:flex;
         align-items: center;
+        padding:0;
 
         svg{
             font-size: 30px;
@@ -25,4 +26,15 @@
         }
     }
     
+}
+
+@media (max-width:1024px){
+    .NasKontakt{
+        display:block;
+
+        p,a{
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+    }
 }

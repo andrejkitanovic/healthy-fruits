@@ -13,6 +13,7 @@ const navigation = (props) => (
       <NavLink to="/povrce">Povrce</NavLink>
       <NavLink to="/proizvodi">Proizvodi</NavLink>
       <NavLink to="/partneri">Nasi partneri</NavLink>
+      <NavLink to="/kontakt">Kontakt</NavLink>
     </div>
     <div className={"hamburger" + (props.active ? " active" : "")} onClick={props.setNav}>
       <div />
