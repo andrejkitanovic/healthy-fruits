@@ -9,13 +9,13 @@ const sideMenu = (props) => (
   <div className={"SideMenu" + (props.active ? " active" : "")}>
     <img src={Logo} alt="Logo" />
     <div className="links">
-      <NavLink to="/" exact>Pocetna</NavLink>
-      <NavLink to="/o-nama">O nama</NavLink>
-      <NavLink to="/voce">Voce</NavLink>
-      <NavLink to="/povrce">Povrce</NavLink>
-      <NavLink to="/proizvodi">Proizvodi</NavLink>
-      <NavLink to="/partneri">Nasi partneri</NavLink>
-      <NavLink to="/kontakt">Kontakt</NavLink>
+      <NavLink to="/" exact onClick={props.closeNav}>Pocetna</NavLink>
+      <NavLink to="/o-nama" onClick={props.closeNav}>O nama</NavLink>
+      <NavLink to="/voce" onClick={props.closeNav}>Voce</NavLink>
+      <NavLink to="/povrce" onClick={props.closeNav}>Povrce</NavLink>
+      <NavLink to="/proizvodi" onClick={props.closeNav}>Proizvodi</NavLink>
+      <NavLink to="/partneri" onClick={props.closeNav}>Nasi partneri</NavLink>
+      <NavLink to="/kontakt" onClick={props.closeNav}>Kontakt</NavLink>
     </div>
     <div className="kontakt">
         <a href="mailto:info@email.com"><MdMail /></a>
