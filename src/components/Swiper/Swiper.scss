@@ -96,7 +96,34 @@
 @media (max-width:1024px){
   .SwiperPocetna {
     .swiper-slide{
-      max-height: 60vh!important;
+      max-height: 50vh!important;
+    }
+
+    .logo{
+      width: 120px;
+      top:50%;
+    }
+  
+    .swiper-pagination {
+      bottom:42%;
+
+      span{
+        margin:12px 0!important;
+      }
+    }
+  
+    .title{
+      width: 60%;
+      font-size: 40px;
+      padding:0 20%;
+    }
+  
+    .mini-logo{
+      top:95px;
+      width: 35px;
+      left:calc(100% - 61px);
     }
   }
+
+ 
 }

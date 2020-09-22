@@ -9,7 +9,7 @@ import Logo from "../../assets/images/logo.png";
 import {MdMail,MdPhone , MdLocationOn} from 'react-icons/md'
 
 const footer = (props) => (
-  <div className="Footer">
+  <div className="Footer" id="footer">
     <img className="pozadina" src={Pozadina} alt="Footer" />
 
     <div className="grid">

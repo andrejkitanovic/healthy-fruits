@@ -17,9 +17,9 @@ const sideMenu = (props) => (
       <NavLink to="/partneri">Nasi partneri</NavLink>
     </div>
     <div className="kontakt">
-        <a href="mailto:info@email.com"><MdMail /> info@email.com</a>
-        <a href="tel:+38169333555"><MdPhone /> +381 69-333-555</a>
-        <p><MdLocationOn /> Ul. Stanoje B. 38</p>
+        <a href="mailto:info@email.com"><MdMail /></a>
+        <a href="tel:+38169333555"><MdPhone /></a>
+        <a href="#footer"><MdLocationOn /></a>
       </div>
   </div>
 )

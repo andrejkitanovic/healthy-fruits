@@ -18,7 +18,7 @@
     .grid {
         display:grid;
         grid-template-columns: 1fr 1fr 1.5fr 1fr;
-        padding:250px 0 0 0;
+        padding:23vh 0 0 0;
         max-width: 1200px;
         margin:0 auto;
 
@@ -91,6 +91,7 @@
     .Footer {
         .grid {
             display:block;
+            padding-top:20vh;
 
             h4{
                 display:none;
@@ -99,10 +100,14 @@
                 display:none!important;
             }
             iframe{
-                display:none;
+                position: relative;
+                display:block;
+                width: 90%;
+                height: 27vh;
+                margin:0 auto!important;
             }
             img{
-                top:5vh!important;
+                display:none;
             }
         }
     }
