@@ -28,7 +28,7 @@ const swiper = (props) => {
         pagination={{ clickable: true }}
         slidesPerView={window.innerWidth < 1024 ? 2 : 4}
         freeMode
-        autoplay={{
+        autoplay={props.autoplay !== "off" && {
           delay: 2000,
           disableOnInteraction: false,
         }}

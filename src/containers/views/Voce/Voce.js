@@ -53,7 +53,7 @@ const Voce = (props) => {
     setKategorija(kategorija)
   }
 
-  const swiperKategorija = kategorija === 0 ? smrznutoVoce : kategorija === 1 ? svezeVoce : susenoVoce
+  const swiperKategorija = kategorija === 0 ? svezeVoce : kategorija === 1 ? smrznutoVoce : susenoVoce
 
   return (
     <div className="Voce">
@@ -68,7 +68,7 @@ const Voce = (props) => {
         kategorija={kategorija}
         promeniKategoriju={promeniKategoriju}
       />
-      <SwiperVoce content={swiperKategorija} height="30vh" />
+      <SwiperVoce content={swiperKategorija} height="30vh" autoplay="off"/>
       <Swiper key={2} content={swiperGlavni} height="80vh" overlayTop/>
     </div>
   )
