@@ -2,9 +2,7 @@
     padding-bottom: 65vh;
 
     .video-flex{
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
+  
         display: grid;
         grid-template-columns: repeat(2,1fr);
         width:50%;
@@ -13,8 +11,15 @@
         margin-bottom: 100px;
 
         video{
-            // max-width: 500px;
             width: 100%;
         }
+    }
+}
+
+@media (max-width:1200px){
+    .Onama .video-flex{
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
     }
 }
