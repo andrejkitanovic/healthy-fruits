@@ -5,7 +5,26 @@ import SwiperVoce from '../../../components/Voce/SwiperVoce/SwiperVoce'
 
 import PovrceSl from '../../../assets/images/povrce-swiper.png'
 
-import Smrznuto from '../../../assets/images/smrznuto-swiper.png'
+import Brokoli from '../../../assets/images/povrce/brokoli.png'
+import Celer from '../../../assets/images/povrce/celer.png'
+import Cvekla from '../../../assets/images/povrce/cvekla.png'
+import Karfiol from '../../../assets/images/povrce/karfiol.png'
+import Krastavac from '../../../assets/images/povrce/krastavac.png'
+import Krompir from '../../../assets/images/povrce/krompir.png'
+import Luksutkasrebrenjaka from '../../../assets/images/povrce/luksutkasrebrenjaka.png'
+import Mladcrniluk from '../../../assets/images/povrce/mladcrniluk.png'
+import Mladkrompir from '../../../assets/images/povrce/mladkrompir.png'
+import Paprikacrvena from '../../../assets/images/povrce/paprikacrvena.png'
+import Paprikazelena from '../../../assets/images/povrce/paprikazelena.png'
+import Paradajz from '../../../assets/images/povrce/paradajz.png'
+import Paskanat from '../../../assets/images/povrce/paskanat.png'
+import Persun from '../../../assets/images/povrce/persun.png'
+import Plavipatlidzan from '../../../assets/images/povrce/plavipatlidzan.png'
+import Praziluk from '../../../assets/images/povrce/praziluk.png'
+import Rotkvabela from '../../../assets/images/povrce/rotkvabela.png'
+import Rotkvacrna from '../../../assets/images/povrce/rotkvacrna.png'
+import Tikvica from '../../../assets/images/povrce/tikvica.png'
+import Zelenasalata from '../../../assets/images/povrce/zelenasalata.png'
 
 const Povrce = (props) => {
   const [swiperGlavni] = useState([
@@ -13,13 +32,26 @@ const Povrce = (props) => {
     { img: PovrceSl },
   ])
   const [povrce,] = useState([
-    { img: Smrznuto },
-    { img: Smrznuto },
-    { img: Smrznuto },
-    { img: Smrznuto },
-    { img: Smrznuto },
-    { img: Smrznuto },
-    { img: Smrznuto },
+    { img: Brokoli },
+    { img: Celer },
+    { img: Cvekla },
+    { img: Karfiol },
+    { img: Krastavac },
+    { img: Krompir },
+    { img: Luksutkasrebrenjaka },
+    { img: Mladcrniluk },
+    { img: Mladkrompir },
+    { img: Paprikacrvena },
+    { img: Paprikazelena },
+    { img: Paradajz },
+    { img: Paskanat },
+    { img: Persun },
+    { img: Plavipatlidzan },
+    { img: Praziluk },
+    { img: Rotkvabela },
+    { img: Rotkvacrna },
+    { img: Tikvica },
+    { img: Zelenasalata}
   ])
 
   useEffect(() => {
