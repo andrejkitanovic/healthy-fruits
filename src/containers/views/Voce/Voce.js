@@ -7,9 +7,17 @@ import SwiperVoce from '../../../components/Voce/SwiperVoce/SwiperVoce'
 
 import Jagode from '../../../assets/images/voce-swiper.png'
 
-import Smrznuto from '../../../assets/images/smrznuto-swiper.png'
-import Sveze from '../../../assets/images/sveze-swiper.png'
-import Suseno from '../../../assets/images/suseno-swiper.png'
+import Borovnice from '../../../assets/images/voce/sveze/borovnice.png'
+import Breskva from '../../../assets/images/voce/sveze/breskva.png'
+import Jagodes from '../../../assets/images/voce/sveze/jagode.png'
+import Kajsija from '../../../assets/images/voce/sveze/kajsija.png'
+import Nektarina from '../../../assets/images/voce/sveze/nektarina.png'
+import Sljiva from '../../../assets/images/voce/sveze/sljiva.png'
+import Tresnje from '../../../assets/images/voce/sveze/tresnje.png'
+
+import Kupina from '../../../assets/images/voce/smrznuto/kupina.png'
+import Malina from '../../../assets/images/voce/smrznuto/maline.png'
+import Mix from '../../../assets/images/voce/smrznuto/mix.png'
 
 const Voce = (props) => {
   const [swiperGlavni] = useState([
@@ -17,31 +25,28 @@ const Voce = (props) => {
     { img: Jagode },
   ])
 
-  const [smrznutoVoce] = useState([
-    { img: Smrznuto },
-    { img: Smrznuto },
-    { img: Smrznuto },
-    { img: Smrznuto },
-    { img: Smrznuto },
-    { img: Smrznuto },
-    { img: Smrznuto },
-  ])
   const [svezeVoce] = useState([
-    { img: Sveze },
-    { img: Sveze },
-    { img: Sveze },
-    { img: Sveze },
-    { img: Sveze },
+    { img: Borovnice },
+    { img: Breskva },
+    { img: Jagodes },
+    { img: Kajsija },
+    { img: Nektarina },
+    { img: Sljiva },
+    { img: Tresnje },
   ])
+  const [smrznutoVoce] = useState([
+    { img: Malina },
+    { img: Borovnice },
+    { img: Tresnje },
+    { img: Jagodes },
+    { img: Sljiva },
+    { img: Kupina },
+    { img: Mix },
+  ])
+
   const [susenoVoce] = useState([
-    { img: Suseno },
-    { img: Suseno },
-    { img: Suseno },
-    { img: Suseno },
-    { img: Suseno },
-    { img: Suseno },
-    { img: Suseno },
-    { img: Suseno },
+    { img: Tresnje },
+    { img: Sljiva },
   ])
   const [kategorija, setKategorija] = useState(0)
 
