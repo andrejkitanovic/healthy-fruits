@@ -13,6 +13,7 @@ const sideMenu = (props) => (
       <NavLink to="/o-nama" onClick={props.closeNav}>O nama</NavLink>
       <NavLink to="/voce" onClick={props.closeNav}>Voce</NavLink>
       <NavLink to="/povrce" onClick={props.closeNav}>Povrce</NavLink>
+      <NavLink to="/jabuke" onClick={props.closeNav}>Jabuke</NavLink>
       {/* <NavLink to="/proizvodi" onClick={props.closeNav}>Proizvodi</NavLink> */}
       {/* <NavLink to="/partneri" onClick={props.closeNav}>Nasi partneri</NavLink> */}
       <NavLink to="/kontakt" onClick={props.closeNav}>Kontakt</NavLink>
