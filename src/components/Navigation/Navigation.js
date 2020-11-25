@@ -11,8 +11,9 @@ const navigation = (props) => (
       <NavLink to="/o-nama">O nama</NavLink>
       <NavLink to="/voce">Voce</NavLink>
       <NavLink to="/povrce">Povrce</NavLink>
-      <NavLink to="/proizvodi">Proizvodi</NavLink>
-      <NavLink to="/partneri">Nasi partneri</NavLink>
+      {/* <NavLink to="/proizvodi">Proizvodi</NavLink> */}
+      <NavLink to="/jabuke">Jabuke</NavLink>
+      {/* <NavLink to="/partneri">Nasi partneri</NavLink> */}
       <NavLink to="/kontakt">Kontakt</NavLink>
     </div>
     <div className={"hamburger" + (props.active ? " active" : "")} onClick={props.openNav}>

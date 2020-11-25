@@ -15,8 +15,6 @@ const Voce = (props) => {
   const [swiperGlavni] = useState([
     { img: Jagode },
     { img: Jagode },
-    { img: Jagode },
-    { img: Jagode },
   ])
 
   const [smrznutoVoce] = useState([

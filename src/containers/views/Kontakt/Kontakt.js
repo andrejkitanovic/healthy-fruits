@@ -12,8 +12,6 @@ const Kontakt = (props) => {
   const [swiperGlavni] = useState([
     { img: Zgrada },
     { img: Zgrada },
-    { img: Zgrada },
-    { img: Zgrada },
   ]);
 
   useEffect(() => {

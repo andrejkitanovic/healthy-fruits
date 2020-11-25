@@ -13,8 +13,6 @@ const Onama = (props) => {
   const [swiperGlavni] = useState([
     { img: Kamion },
     { img: Kamion },
-    { img: Kamion },
-    { img: Kamion },
   ]);
   const [activeImage, setActiveImage] = useState(0);
 

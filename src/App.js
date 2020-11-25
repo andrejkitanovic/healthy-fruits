@@ -10,7 +10,8 @@ import Partneri from './containers/views/Partneri/Partneri'
 import Kontakt from './containers/views/Kontakt/Kontakt'
 import Voce from './containers/views/Voce/Voce'
 import Povrce from './containers/views/Povrce/Povrce'
-import Proizvodi from './containers/views/Proizvodi/Proizvodi'
+// import Proizvodi from './containers/views/Proizvodi/Proizvodi'
+import Jabuka from './containers/views/Jabuka/Jabuka'
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
             <Route path="/kontakt" component={Kontakt} />
             <Route path="/voce" component={Voce} />
             <Route path="/povrce" component={Povrce} />
-            <Route path="/proizvodi" component={Proizvodi} />
+            <Route path="/jabuke" component={Jabuka} />
+            {/* <Route path="/proizvodi" component={Proizvodi} /> */}
             <Redirect to="/" />
           </Switch>
         </PageLayout>

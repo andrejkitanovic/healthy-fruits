@@ -11,8 +11,6 @@ const Povrce = (props) => {
   const [swiperGlavni] = useState([
     { img: PovrceSl },
     { img: PovrceSl },
-    { img: PovrceSl },
-    { img: PovrceSl },
   ])
   const [povrce,] = useState([
     { img: Smrznuto },

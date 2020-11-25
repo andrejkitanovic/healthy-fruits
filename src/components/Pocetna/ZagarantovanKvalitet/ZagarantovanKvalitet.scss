@@ -5,9 +5,18 @@
 
     .sertifikati {
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(4,1fr);
         width:40%;
         margin:80px auto;
+        grid-row-gap: 50px;
+    
+
+        .single-sertifikat{
+            margin:0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
         img{
             margin:0 auto;
