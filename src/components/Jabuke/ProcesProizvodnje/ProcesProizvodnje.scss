@@ -1,0 +1,44 @@
+.ProcesProizvodnje{
+    margin:100px auto;
+    max-width: 1200px;
+    
+
+    h2{
+
+        padding-left: 0;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        margin:80px 0;
+
+        img{
+            min-width: 400px;
+            border-radius: 5px;
+            filter: drop-shadow(5px 5px 20px rgba(0,0,0,0.5));
+        }
+
+        p{
+            margin:35px 0;
+            line-height: 35px;
+        }
+    }
+}
+
+@media (max-width:1200px){
+    .ProcesProizvodnje{
+
+        h2{
+            padding-left: 20px;
+        }
+        .flex{
+            display:block;
+        }
+
+        img{
+            margin:0 20px;
+            min-width: 90%!important;
+        }
+    }
+}

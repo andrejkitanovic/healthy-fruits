@@ -5,7 +5,7 @@ import Swiper from '../../../components/Swiper/Swiper'
 import KategorijaVoca from '../../../components/Voce/KategorijaVoca/KategorijaVoca'
 import SwiperVoce from '../../../components/Voce/SwiperVoce/SwiperVoce'
 
-import Jagode from '../../../assets/images/voce-swiper.png'
+import Jagode from '../../../assets/images/swiper-jagode.jpg'
 
 import Borovnice from '../../../assets/images/voce/sveze/borovnice.png'
 import Breskva from '../../../assets/images/voce/sveze/breskva.png'

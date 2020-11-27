@@ -3,6 +3,7 @@ import "./OpisJabuka.scss"
 
 import Jabuka from '../../../assets/images/jabuka.png'
 
+
 const OpisJabuka = (props) => {
 
     return <div className="OpisJabuka">
@@ -11,10 +12,10 @@ const OpisJabuka = (props) => {
             <img src={Jabuka} alt="Jabuke"/>
             <div className="text">
                 <p>Voce: Jabuka</p>
-                <p>Lorem Ipsum is simply dummy text</p>
-                <p>Lorem Ipsum is simply dummy text</p>
-                <p>Lorem Ipsum is simply dummy text</p>
-                <p>Lorem Ipsum is simply dummy text</p>
+                <p>Lorem Ipsum is simply dummy</p>
+                <p>Lorem Ipsum is simply dummy</p>
+                <p>Lorem Ipsum is simply dummy</p>
+                <p>Lorem Ipsum is simply dummy</p>
             </div>
         </div>
     </div>

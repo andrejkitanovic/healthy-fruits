@@ -3,14 +3,16 @@ import './Jabuka.scss'
 
 import ZagarantovanKvalitet from '../../../components/Pocetna/ZagarantovanKvalitet/ZagarantovanKvalitet'
 import OpisJabuka from '../../../components/Jabuke/OpisJabuka/OpisJabuka'
+import ProcesProizvodnje from '../../../components/Jabuke/ProcesProizvodnje/ProcesProizvodnje'
 
-import Jabuka from '../../../assets/images/jabuka.png'
+import PrikazJabuka from '../../../assets/images/jabuke/prikazjabuka.png'
 
 const Jabuke = (props) => {
   return (
     <div className="Jabuke">
-        <div className="pozadina"><img src={Jabuka} alt="Jabuka"/></div>
+        <div className="pozadina"><img src={PrikazJabuka} alt="Jabuka"/></div>
         <OpisJabuka />
+        <ProcesProizvodnje/>
       <ZagarantovanKvalitet />
     </div>
   )
