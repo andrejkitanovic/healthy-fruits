@@ -1,0 +1,32 @@
+.OpisJabuka {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #b2cb06;
+    padding: 0 20px;
+  }
+
+  .flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    margin: 50px 0;
+
+    img {
+      margin: 0 auto;
+    }
+
+    .text {
+      margin: 40px 0;
+      margin-left: 40px;
+      font-weight: bold;
+      p {
+        font-size: 18px;
+        color: #414141;
+      }
+    }
+  }
+}

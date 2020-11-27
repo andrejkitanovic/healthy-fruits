@@ -3,8 +3,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 800px;
     margin:100px auto;
+ 
 
     p{
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
         position: relative;
         padding-top:15px;
         text-transform: uppercase;
@@ -39,8 +43,13 @@
 
 @media(max-width:1024px){
     .KategorijaVoca{
+        margin:50px auto;
         p{
             font-size: 18px;
         }
+        
+      
     }
+
+   
 }

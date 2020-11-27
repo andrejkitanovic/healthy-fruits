@@ -26,27 +26,27 @@ const Voce = (props) => {
   ])
 
   const [svezeVoce] = useState([
-    { img: Borovnice },
-    { img: Breskva },
-    { img: Jagodes },
-    { img: Kajsija },
-    { img: Nektarina },
-    { img: Sljiva },
-    { img: Tresnje },
+    { img: Borovnice, naziv: "Borovnice" },
+    { img: Breskva, naziv: "Breskve" },
+    { img: Jagodes, naziv: "Jagode" },
+    { img: Kajsija, naziv: "Borovnice" },
+    { img: Nektarina, naziv: "Nektarina" },
+    { img: Sljiva, naziv: "Sljiva" },
+    { img: Tresnje, naziv: "Tresnje" },
   ])
   const [smrznutoVoce] = useState([
-    { img: Malina },
-    { img: Borovnice },
-    { img: Tresnje },
-    { img: Jagodes },
-    { img: Sljiva },
-    { img: Kupina },
-    { img: Mix },
+    { img: Malina, naziv: "Malina" },
+    { img: Borovnice, naziv: "Borovnice" },
+    { img: Tresnje, naziv: "Tresnje" },
+    { img: Jagodes, naziv: "Jagode" },
+    { img: Sljiva, naziv: "Sljiva" },
+    { img: Kupina, naziv: "Kupina" },
+    { img: Mix, naziv: "Mix" },
   ])
 
   const [susenoVoce] = useState([
-    { img: Tresnje },
-    { img: Sljiva },
+    { img: Tresnje, naziv: "Visnje" },
+    { img: Sljiva, naziv: "Sljiva" },
   ])
   const [kategorija, setKategorija] = useState(0)
 

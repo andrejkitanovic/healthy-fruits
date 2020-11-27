@@ -1,14 +1,27 @@
 .SwiperVoce {
   position: relative;
   margin-top: 100px;
+  
 
   .swiper-container {
     max-width: 1200px;
+    
     margin: 0 auto;
   }
 
   .swiper-slide {
     position: relative;
+    height: 300px!important;
+    p{
+      position: absolute;
+      font-size: 15px;
+      font-weight: bold;
+      color:#c3d65b;
+      bottom:20%;
+      left:50%;
+      width: 100%;
+      transform: translateX(-50%);
+    }
     img {
       position: absolute;
       max-width: 100%;
@@ -50,12 +63,22 @@
 
 @media (max-width: 1024px) {
   .SwiperVoce {
+    margin-top: 50px;
+    margin-bottom: 50px;
     .swiper-slide {
-      height: 35vh!important;
+      height: 200px!important;
+
+      p{
+        bottom:0;
+      }
     }
     .swiper-button-next,
     .swiper-button-prev {
       display: none;
     }
+
+    .swiper-pagination {
+      display: none;
+  }
   }
 }
