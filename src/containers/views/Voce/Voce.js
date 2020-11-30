@@ -14,6 +14,7 @@ import Kajsija from '../../../assets/images/voce/sveze/kajsija.png'
 import Nektarina from '../../../assets/images/voce/sveze/nektarina.png'
 import Sljiva from '../../../assets/images/voce/sveze/sljiva.png'
 import Tresnje from '../../../assets/images/voce/sveze/tresnje.png'
+import Jabuke from '../../../assets/images/voce/sveze/jabuke.png'
 
 import Kupina from '../../../assets/images/voce/smrznuto/kupina.png'
 import Malina from '../../../assets/images/voce/smrznuto/maline.png'
@@ -32,7 +33,8 @@ const Voce = (props) => {
     { img: Kajsija, naziv: "Borovnice" },
     { img: Nektarina, naziv: "Nektarina" },
     { img: Sljiva, naziv: "Sljiva" },
-    { img: Tresnje, naziv: "Tresnje" },
+    { img: Tresnje, naziv: "Tresnje"},
+    { img: Jabuke, naziv: "Jabuke"}
   ])
   const [smrznutoVoce] = useState([
     { img: Malina, naziv: "Malina" },

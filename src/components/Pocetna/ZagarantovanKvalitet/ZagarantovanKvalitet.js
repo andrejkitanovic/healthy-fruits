@@ -28,7 +28,7 @@ const zagarantovanKvalitet = (props) => (
         <div className="single-sertifikat"><img src={Sertifikat1} alt="Sertifikat"/></div>
         <div className="single-sertifikat"><img src={Sertifikat4} alt="Sertifikat"/></div>
        
-        <div className="single-sertifikat"><img src={Sertifikat3} alt="Sertifikat"/></div>
+        <div className="single-sertifikat"><img className="gap" src={Sertifikat3} alt="Sertifikat"/></div>
         <div className="single-sertifikat"><img src={Sertifikat6} alt="Sertifikat"/></div>
     </div>
   </div>
