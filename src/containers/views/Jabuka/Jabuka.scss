@@ -1,36 +1,46 @@
-.Jabuke{
-    padding-bottom: 60vh;
+.Jabuke {
+  padding-bottom: 60vh;
 
-    .pozadina{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30vh;
-        background:url('../../../assets/images/jabuke/pozadina.png')no-repeat center center;
-        background-size: cover;
+  .pozadina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background: url("../../../assets/images/jabuke/pozadina.png") no-repeat
+      center center;
+    background-size: cover;
 
-        img{
-            margin-top: 20px;
-            height:15vh;
-            filter: drop-shadow(5px 5px 20px rgba(0,0,0,0.5));
-        }
+    img {
+      margin-top: 20px;
+      height: 15vh;
+      filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.5));
     }
+  }
 
-    h2{
-        text-align: center;
-    }
+  h2 {
+    text-align: center;
+  }
 
-    .SwiperVoce{
-        margin-top: 0;
-        margin-bottom: 80px;
-        text-align: center;
-    }
+  .SwiperVoce {
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  .description{
+      max-width: 1200px;
+      text-align: center;
+  }
+
+  .ZagarantovanKvalitet{
+      padding-top: 0;
+  }
 }
 
-@media(max-width:1200px){
-    .Jabuke{
-        .pozadina img{
-            margin-top: 50px;
-        }
+@media (max-width: 1200px) {
+  .Jabuke {
+    .pozadina img {
+      margin-top: 50px;
     }
+  }
 }

@@ -7,12 +7,23 @@ import ProcesProizvodnje from '../../../components/Jabuke/ProcesProizvodnje/Proc
 import SwiperVoce from '../../../components/Voce/SwiperVoce/SwiperVoce'
 import PrikazJabuka from '../../../assets/images/jabuke/prikazjabuka.png'
 
+
 import ZlatniDelises from '../../../assets/images/jabuke/komercijalne/zlatnidelises.png'
 import CrveniDelises from '../../../assets/images/jabuke/komercijalne/crvenidelises.png'
 import Breburn from '../../../assets/images/jabuke/komercijalne/breburn.png'
 import Fuji from '../../../assets/images/jabuke/komercijalne/fuji.png'
 import GrannySmith from '../../../assets/images/jabuke/komercijalne/jonaprinc.png'
 import Gala from '../../../assets/images/jabuke/komercijalne/gala.png'
+
+import Sweettango from '../../../assets/images/jabuke/klub/sweettango.png'
+import Kiku from '../../../assets/images/jabuke/klub/kiku.png'
+import Isaq from '../../../assets/images/jabuke/klub/isaq.png'
+import Rubens from '../../../assets/images/jabuke/klub/rubens.png'
+import Redmoon from '../../../assets/images/jabuke/klub/redmoon.png'
+import Modi from '../../../assets/images/jabuke/klub/modi.png'
+import Ewelina from '../../../assets/images/jabuke/klub/ewelina.png'
+import PinkLady from '../../../assets/images/jabuke/klub/pinklady.png'
+import Tehnologija from '../../../components/Jabuke/Tehnologija/Tehnologija'
 
 const Jabuke = (props) => {
   const [komercijalne,] = useState([
@@ -24,16 +35,16 @@ const Jabuke = (props) => {
     { img: Gala , naziv: "Gala"},
   ])
 
-  // const [klub,] = useState([
-  //   { img: Brokoli , naziv: "Pink lady"},
-  //   { img: Celer , naziv: "Ewelina"},
-  //   { img: Cvekla , naziv: "Modi"},
-  //   { img: Karfiol , naziv: "Isaq"},
-  //   { img: Krastavac , naziv: "Red moon"},
-  //   { img: Krastavac , naziv: "Rubens"},
-  //   { img: Krastavac , naziv: "Kiku"},
-  //   { img: Krastavac , naziv: "Sweet tango"},
-  // ])
+  const [klub,] = useState([
+    { img: PinkLady , naziv: "Pink lady"},
+    { img: Ewelina , naziv: "Ewelina"},
+    { img: Modi , naziv: "Modi"},
+    { img: Isaq , naziv: "Isaq"},
+    { img: Redmoon , naziv: "Red moon"},
+    { img: Rubens , naziv: "Rubens"},
+    { img: Kiku , naziv: "Kiku"},
+    { img: Sweettango , naziv: "Sweet tango"},
+  ])
 
   return (
     <div className="Jabuke">
@@ -43,7 +54,13 @@ const Jabuke = (props) => {
         <h2>Komercijalne sorte</h2>
         <SwiperVoce content={komercijalne} height="30vh" autoplay="off" />
         <h2>Klub sorte</h2>
-        <SwiperVoce content={[]} height="30vh" autoplay="off" />
+        <SwiperVoce content={klub} height="30vh" autoplay="off" />
+        <p className="description">Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book</p>
+      <Tehnologija/>
+
       <ZagarantovanKvalitet />
     </div>
   )

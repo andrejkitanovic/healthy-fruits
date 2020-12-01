@@ -2,6 +2,7 @@ import React from 'react'
 import './ProcesProizvodnje.scss'
 
 import ZlatniDelises from '../../../assets/images/jabuke/zlatnedelises.jpg'
+import PlantazaJabuka from '../../../assets/images/jabuke/plantaza.jpg'
 
 const ProcesProizvodnje = (props) => {
   return (
@@ -27,7 +28,7 @@ const ProcesProizvodnje = (props) => {
           scrambled it to make a type specimen book. It has survived not only
           five centuries, but also the leap into electronic.
         </p>
-        <img src={ZlatniDelises} alt="Zlatni delises" />
+        <img className="plantaza" src={PlantazaJabuka} alt="Zlatni delises" />
       </div>
     </div>
   )

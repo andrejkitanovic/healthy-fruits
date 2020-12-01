@@ -24,6 +24,8 @@
             line-height: 35px;
         }
     }
+
+
 }
 
 @media (max-width:1200px){
@@ -34,11 +36,15 @@
         }
         .flex{
             display:block;
+
+            img{
+                display: block;
+                margin:30px auto;
+                min-width: auto;
+                width: 90%;
+            }
         }
 
-        img{
-            margin:0 20px;
-            min-width: 90%!important;
-        }
+     
     }
 }
