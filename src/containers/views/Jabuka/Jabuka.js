@@ -12,7 +12,7 @@ import ZlatniDelises from '../../../assets/images/jabuke/komercijalne/zlatnideli
 import CrveniDelises from '../../../assets/images/jabuke/komercijalne/crvenidelises.png'
 import Breburn from '../../../assets/images/jabuke/komercijalne/breburn.png'
 import Fuji from '../../../assets/images/jabuke/komercijalne/fuji.png'
-import GrannySmith from '../../../assets/images/jabuke/komercijalne/jonaprinc.png'
+import GrannySmith from '../../../assets/images/jabuke/komercijalne/grennysmith.png'
 import Gala from '../../../assets/images/jabuke/komercijalne/gala.png'
 
 import Sweettango from '../../../assets/images/jabuke/klub/sweettango.png'
