@@ -55,10 +55,7 @@ const Jabuke = (props) => {
         <SwiperVoce content={komercijalne} height="30vh" autoplay="off" />
         <h2>Klub sorte</h2>
         <SwiperVoce content={klub} height="30vh" autoplay="off" />
-        <p className="description">Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book</p>
+        <p className="description">Klupske jabuke predstavljaju ekskluzivne jabuke koje mogu da proizvode samo proizvođači koji su u svom radu pokazali izuzetne rezultate i privrženost bezbednosti i kvalitetu proizvoda.</p>
       <Tehnologija/>
 
       <ZagarantovanKvalitet />

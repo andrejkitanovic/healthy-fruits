@@ -32,6 +32,7 @@ const Povrce = (props) => {
     { img: PovrceSl },
   ])
   const [povrce,] = useState([
+    { img: Brokoli , naziv: "Kiseli kupus"},
     { img: Brokoli , naziv: "Brokoli"},
     { img: Celer , naziv: "Celer"},
     { img: Cvekla , naziv: "Cvekla"},
@@ -69,6 +70,7 @@ const Povrce = (props) => {
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book.
       </p>
+      <p>Citat</p>
       <SwiperVoce content={povrce} height="30vh" autoplay="off" />
       <p style={{marginTop:"50px",paddingBottom:"10px"}}>Lorem Ipsum is simply dummy text of the printing and typesetting
         industry</p>
