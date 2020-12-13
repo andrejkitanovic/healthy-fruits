@@ -9,7 +9,7 @@ import "swiper/components/pagination/pagination.scss";
 
 // import Jagode from "../../assets/images/swiper-jagode.jpg";
 import Overlay from "../../assets/images/overlay.png";
-import OverlayTop from "../../assets/images/overlay-top.png"
+import OverlayTop from "../../assets/images/overlay-top.png";
 import Logo from "../../assets/images/logo-swiper.png";
 
 import "./Swiper.scss";
@@ -17,8 +17,8 @@ import "./Swiper.scss";
 SwiperCore.use([Pagination, Autoplay]);
 
 const swiper = (props) => {
-  const slike = props.content.map((slika,index) => (
-    <SwiperSlide key={index} style={{height:props.height}}>
+  const slike = props.content.map((slika, index) => (
+    <SwiperSlide key={index} style={{ height: props.height }}>
       <img src={slika.img} alt="vest" />
     </SwiperSlide>
   ));
@@ -38,10 +38,12 @@ const swiper = (props) => {
         {slike}
       </Swiper>
       {props.title ? <h1 className="title">{props.title}</h1> : null}
-      {props.minilogo ? <img className="mini-logo" src={Logo} alt="Healthy food" /> : null}
-      {props.logo ? (
-        <img className="logo" src={Logo} alt="Healthy food" />
+      {props.minilogo ? (
+        <img className="mini-logo" src={Logo} alt="Healthy food" />
       ) : null}
+      {/* {props.logo ? (
+        <img className="logo" src={Logo} alt="Healthy food" />
+      ) : null} */}
       {props.overlay ? (
         <div className="overlay">
           <img src={Overlay} alt="Jagode" />

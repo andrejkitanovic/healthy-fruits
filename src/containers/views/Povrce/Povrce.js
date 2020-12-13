@@ -4,6 +4,7 @@ import Swiper from '../../../components/Swiper/Swiper'
 import SwiperVoce from '../../../components/Voce/SwiperVoce/SwiperVoce'
 
 import PovrceSl from '../../../assets/images/povrce-swiper.png'
+import SwiperPovrce from '../../../assets/images/swiper-povrce.jpg'
 
 import Brokoli from '../../../assets/images/povrce/brokoli.png'
 import Celer from '../../../assets/images/povrce/celer.png'
@@ -25,14 +26,15 @@ import Rotkvabela from '../../../assets/images/povrce/rotkvabela.png'
 import Rotkvacrna from '../../../assets/images/povrce/rotkvacrna.png'
 import Tikvica from '../../../assets/images/povrce/tikvica.png'
 import Zelenasalata from '../../../assets/images/povrce/zelenasalata.png'
+import KiseliKupus from '../../../assets/images/povrce/kiselikupus.png'
 
 const Povrce = (props) => {
   const [swiperGlavni] = useState([
     { img: PovrceSl },
-    { img: PovrceSl },
+    { img: SwiperPovrce },
   ])
   const [povrce,] = useState([
-    { img: Brokoli , naziv: "Kiseli kupus"},
+    { img: KiseliKupus , naziv: "Kiseli kupus"},
     { img: Brokoli , naziv: "Brokoli"},
     { img: Celer , naziv: "Celer"},
     { img: Cvekla , naziv: "Cvekla"},

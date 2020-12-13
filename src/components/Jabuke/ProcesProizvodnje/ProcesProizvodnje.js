@@ -1,8 +1,8 @@
-import React from 'react'
-import './ProcesProizvodnje.scss'
+import React from "react";
+import "./ProcesProizvodnje.scss";
 
-import ZlatniDelises from '../../../assets/images/jabuke/zlatnedelises.jpg'
-import PlantazaJabuka from '../../../assets/images/jabuke/plantaza.jpg'
+import ZlatniDelises from "../../../assets/images/jabuke/zlatnedelises.jpg";
+import PlantazaJabuka from "../../../assets/images/jabuke/plantaza.jpg";
 
 const ProcesProizvodnje = (props) => {
   return (
@@ -31,7 +31,7 @@ const ProcesProizvodnje = (props) => {
         <img className="plantaza" src={PlantazaJabuka} alt="Zlatni delises" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProcesProizvodnje
+export default ProcesProizvodnje;

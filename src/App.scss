@@ -4,7 +4,7 @@
   h2 {
     font-size: 28px;
     color: #b2cb06;
-    padding:0 20px;
+    padding: 0 20px;
   }
 
   p {
@@ -12,14 +12,59 @@
     color: #828571;
     margin: 0 auto;
     max-width: 1200px;
-    padding:0 20px;
+    padding: 0 20px;
   }
 
   h4 {
-    padding:0 20px;
-    font-size:25px;
+    padding: 0 20px;
+    font-size: 25px;
     color: #828571;
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
+  }
+
+  .citat {
+    color: #b2cb06;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+  .glavna-pozadina {
+    position: relative;
+    max-height: 70vh;
+    width: 100%;
+    overflow: hidden;
+
+    &.quarter {
+      max-height: 40vh;
+    }
+
+    .slika {
+      min-width: 100%;
+      min-height: 100%;
+    }
+
+    .logo {
+      position: absolute;
+      z-index: 10;
+      left: 50%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+      // height: 50%;
+      filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.4));
+      pointer-events: none;
+    }
+
+    .overlay {
+      width: 100%;
+      position: absolute;
+      bottom: -5px;
+      z-index: 10;
+      pointer-events: none;
+
+      img {
+        width: 100%;
+      }
+    }
   }
 }

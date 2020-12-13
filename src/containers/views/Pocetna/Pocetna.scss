@@ -1,42 +1,5 @@
 .Pocetna{
     padding-bottom: 60vh;
     
-    .pozadina{
-        position: relative;
-        max-height: 70vh;
-        width: 100%;
-        overflow: hidden;
-
-        &.quarter{
-            max-height: 40vh;
-        }
-
-        .slika{
-            min-width: 100%;
-            min-height: 100%;
-        }
-
-        .logo {
-            position: absolute;
-            z-index:10;
-            left:50%;
-            top:40%;
-            transform: translate(-50%,-50%);
-            // height: 50%;
-            filter: drop-shadow(0 5px 15px rgba(0,0,0,0.4));
-            pointer-events: none;
-          }
-
-          .overlay {
-            width:100%;
-            position: absolute;
-            bottom:-5px;
-            z-index: 10;
-            pointer-events: none;
-      
-            img {
-                width: 100%;
-            }
-        }
-    }
+   
 }

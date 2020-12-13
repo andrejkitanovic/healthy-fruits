@@ -5,16 +5,19 @@ import Swiper from '../../../components/Swiper/Swiper'
 import KategorijaVoca from '../../../components/Voce/KategorijaVoca/KategorijaVoca'
 import SwiperVoce from '../../../components/Voce/SwiperVoce/SwiperVoce'
 
-import Jagode from '../../../assets/images/swiper-jagode.jpg'
+// import Jagode from '../../../assets/images/swiper-jagode.jpg'
+import VoceSwiper from '../../../assets/images/swiper-voce.jpg'
+import VoceSwiper2 from '../../../assets/images/swiper-voce2.jpg'
 
 import Borovnice from '../../../assets/images/voce/sveze/borovnice.png'
 import Breskva from '../../../assets/images/voce/sveze/breskva.png'
-import Jagodes from '../../../assets/images/voce/sveze/jagode.png'
+import Jagode from '../../../assets/images/voce/sveze/jagode.png'
 import Kajsija from '../../../assets/images/voce/sveze/kajsija.png'
 import Nektarina from '../../../assets/images/voce/sveze/nektarina.png'
 import Sljiva from '../../../assets/images/voce/sveze/sljiva.png'
 import Tresnje from '../../../assets/images/voce/sveze/tresnje.png'
 import Jabuke from '../../../assets/images/voce/sveze/jabuke.png'
+import Lubenica from '../../../assets/images/voce/sveze/lubenica.png'
 
 import Kupina from '../../../assets/images/voce/smrznuto/kupina.png'
 import Malina from '../../../assets/images/voce/smrznuto/maline.png'
@@ -22,25 +25,25 @@ import Mix from '../../../assets/images/voce/smrznuto/mix.png'
 
 const Voce = (props) => {
   const [swiperGlavni] = useState([
-    { img: Jagode },
-    { img: Jagode },
+    { img: VoceSwiper },
+    { img: VoceSwiper2 },
   ])
 
   const [svezeVoce] = useState([
     { img: Borovnice, naziv: "Borovnice" },
-    { img: Jagodes, naziv: "Jagode" },
+    { img: Jagode, naziv: "Jagode" },
     { img: Tresnje, naziv: "Tresnje"},
     { img: Sljiva, naziv: "Sljiva" },
     { img: Kajsija, naziv: "Borovnice" },
     { img: Nektarina, naziv: "Nektarina" },
     { img: Jabuke, naziv: "Jabuke"},
     { img: Breskva, naziv: "Breskve" },
-    { img: Breskva, naziv: "Lubenica" }
+    { img: Lubenica, naziv: "Lubenica" }
   ])
   const [smrznutoVoce] = useState([
     { img: Malina, naziv: "Malina" },
     { img: Borovnice, naziv: "Borovnice" },
-    { img: Jagodes, naziv: "Jagode" },
+    { img: Jagode, naziv: "Jagode" },
     { img: Kupina, naziv: "Kupina" },
     { img: Tresnje, naziv: "Tresnje" },
     { img: Sljiva, naziv: "Sljiva" },

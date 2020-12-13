@@ -21,7 +21,7 @@ const Pocetna = (props) => {
 
   return (
     <div className="Pocetna">
-      <div className="pozadina">
+      <div className="glavna-pozadina">
         <img className="slika" src={Plantaza} alt="Plantaza"/>
         <img className="logo" src={Logo} alt="Logo"/>
         <div className="overlay">
@@ -30,7 +30,7 @@ const Pocetna = (props) => {
       </div>
       <Onama />
       <NasiProizvodi />
-      <div className="pozadina quarter">
+      <div className="glavna-pozadina quarter">
         <img className="slika" src={Grozdje} alt="Grozdje" />
       </div>
 
