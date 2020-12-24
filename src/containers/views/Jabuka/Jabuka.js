@@ -24,14 +24,19 @@ import Ewelina from "../../../assets/images/jabuke/klub/ewelina.png";
 import PinkLady from "../../../assets/images/jabuke/klub/pinklady.png";
 import Tehnologija from "../../../components/Jabuke/Tehnologija/Tehnologija";
 
+import Pakovanja from "../../../components/Jabuke/Pakovanja/Pakovanja";
+
 const Jabuke = (props) => {
+  const [modal, setModal] = useState(false);
   const [komercijalne] = useState([
+    { img: GrannySmith, naziv: "Granny smith" },    
     { img: ZlatniDelises, naziv: "Zlatni delises" },
-    { img: CrveniDelises, naziv: "Crveni delises" },
-    { img: Breburn, naziv: "Breburn" },
     { img: Fuji, naziv: "Fuji" },
-    { img: GrannySmith, naziv: "Granny smith" },
+    { img: Breburn, naziv: "Braeburn" },
+    { img: Sweettango, naziv: "Jona gold" },
     { img: Gala, naziv: "Gala" },
+    { img: CrveniDelises, naziv: "Crveni delises" }
+    
   ]);
 
   const [klub] = useState([
@@ -43,6 +48,7 @@ const Jabuke = (props) => {
     { img: Rubens, naziv: "Rubens" },
     { img: Kiku, naziv: "Kiku" },
     { img: Sweettango, naziv: "Sweet tango" },
+    
   ]);
 
   return (
@@ -50,7 +56,8 @@ const Jabuke = (props) => {
       <div className="pozadina">
         <img src={PrikazJabuka} alt="Jabuka" />
       </div>
-      <OpisJabuka />
+      <OpisJabuka open={() => setModal(true)} />
+      {modal ? <Pakovanja  close={() => setModal(false)} /> : null}
       <ProcesProizvodnje />
       <h2>Komercijalne sorte</h2>
       <SwiperVoce content={komercijalne} height="30vh" autoplay="off" />

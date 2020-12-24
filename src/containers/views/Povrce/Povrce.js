@@ -74,8 +74,8 @@ const Povrce = (props) => {
       </p>
       <p>Citat</p>
       <SwiperVoce content={povrce} height="30vh" autoplay="off" />
-      <p style={{marginTop:"50px",paddingBottom:"10px"}}>Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry</p>
+      {/* <p style={{marginTop:"50px",paddingBottom:"10px"}}>Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry</p> */}
       <Swiper key={2} content={swiperGlavni} height="80vh" overlayTop/>
     </div>
   )

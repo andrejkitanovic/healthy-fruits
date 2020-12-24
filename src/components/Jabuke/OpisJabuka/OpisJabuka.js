@@ -16,6 +16,7 @@ const OpisJabuka = (props) => {
                 <p>Veličine pakovanja: 2kg, 4kg, 6kg </p>
                 <p>Dodjite i uverite se u kvalitet!</p>
                 <p>Radimo sve po zelji kupca!</p>
+                <button onClick={() => props.open()}>Pogledajte nase pakovanja!</button>
             </div>
         </div>
     </div>

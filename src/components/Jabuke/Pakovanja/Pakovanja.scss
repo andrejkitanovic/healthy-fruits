@@ -1,0 +1,53 @@
+.Pakovanja {
+  z-index: 1000;
+
+  .overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+
+  .box {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 25px;
+    width: 500px;
+    height: 80%;
+    box-shadow: 5px 0 15px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 0 25px;
+    overflow: scroll;
+
+    .pakovanje {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: 50px;
+      height: 280px;
+      border: 4px solid #b2cb06;
+      box-sizing: border-box;
+      border-radius: 25px;
+
+      &:last-of-type{
+          margin-bottom: 50px;
+      }
+
+
+      p{
+          margin-top: 20px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color:#b2cb06;
+      }
+    }
+  }
+}

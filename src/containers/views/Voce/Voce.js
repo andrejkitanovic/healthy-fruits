@@ -30,28 +30,30 @@ const Voce = (props) => {
   ])
 
   const [svezeVoce] = useState([
-    { img: Borovnice, naziv: "Borovnice" },
-    { img: Jagode, naziv: "Jagode" },
-    { img: Tresnje, naziv: "Tresnje"},
+    { img: Borovnice, naziv: "Borovnica" },
+    { img: Jagode, naziv: "Jagoda" },
+    { img: Tresnje, naziv: "Tresnja"},
     { img: Sljiva, naziv: "Sljiva" },
-    { img: Kajsija, naziv: "Borovnice" },
+    { img: Kajsija, naziv: "Kajsija" },
     { img: Nektarina, naziv: "Nektarina" },
-    { img: Jabuke, naziv: "Jabuke"},
     { img: Breskva, naziv: "Breskve" },
-    { img: Lubenica, naziv: "Lubenica" }
+    { img: Lubenica, naziv: "Kruska" },
+    { img: Jabuke, naziv: "Jabuka"},
+    { img: Lubenica, naziv: "Lubenica" },
+  
   ])
   const [smrznutoVoce] = useState([
     { img: Malina, naziv: "Malina" },
-    { img: Borovnice, naziv: "Borovnice" },
-    { img: Jagode, naziv: "Jagode" },
+    { img: Borovnice, naziv: "Borovnica" },
+    { img: Jagode, naziv: "Jagoda" },
     { img: Kupina, naziv: "Kupina" },
-    { img: Tresnje, naziv: "Tresnje" },
+    { img: Tresnje, naziv: "Visnja" },
     { img: Sljiva, naziv: "Sljiva" },
     { img: Mix, naziv: "Mix" },
   ])
 
   const [susenoVoce] = useState([
-    { img: Tresnje, naziv: "Visnje" },
+    { img: Tresnje, naziv: "Visnja" },
     { img: Sljiva, naziv: "Sljiva" },
     
   ])
@@ -70,12 +72,6 @@ const Voce = (props) => {
   return (
     <div className="Voce">
       <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="Voce" />
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book.
-      </p>
       <KategorijaVoca
         kategorija={kategorija}
         promeniKategoriju={promeniKategoriju}
