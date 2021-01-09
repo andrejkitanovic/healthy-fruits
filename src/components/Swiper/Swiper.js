@@ -26,12 +26,14 @@ const swiper = (props) => {
   return (
     <div className={"SwiperPocetna"}>
       <Swiper
-        pagination={{ clickable: true }}
+        // pagination={{ clickable: true }}
         slidesPerView={1}
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 4000,
+        //   disableOnInteraction: false,
+        // }}
+        noSwiping
+        allowTouchMove={false}
         centeredSlides
         loop="true"
       >
