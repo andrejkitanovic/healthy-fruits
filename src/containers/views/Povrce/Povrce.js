@@ -37,24 +37,25 @@ const Povrce = (props) => {
     { img: KiseliKupus , naziv: "Surkål"},
     { img: Brokoli , naziv: "Broccoli"},
     { img: Celer , naziv: "Selleri"},
-    { img: Cvekla , naziv: "Beta"},
+    { img: Cvekla , naziv: "Rödbeta"},
     { img: Karfiol , naziv: "Blomkål"},
     { img: Krastavac , naziv: "Gurka"},
-    { img: Krompir , naziv: "Potatisar"},
+    { img: Krompir , naziv: "Potatis"},
     { img: Luksutkasrebrenjaka, naziv: "Silver sutka lök" },
-    { img: Mladcrniluk, naziv: "Unga lökar" },
+    { img: Mladcrniluk, naziv: "Purjo lök" },
     { img: Mladkrompir, naziv: "Unga potatisar" },
-    { img: Paprikacrvena, naziv: "röd paprika" },
-    { img: Paprikazelena, naziv: "Paprika zelena" },
-    { img: Paradajz, naziv: "Paradajz" },
-    { img: Paskanat, naziv: "Paskanat" },
-    { img: Persun, naziv: "Persun" },
-    { img: Plavipatlidzan, naziv: "Plavi patlidzan" },
-    { img: Praziluk, naziv: "Praziluk" },
-    { img: Rotkvabela, naziv: "Rotkva bela" },
-    { img: Rotkvacrna, naziv: "Rotka crna" },
-    { img: Tikvica, naziv: "Tikvica" },
-    { img: Zelenasalata, naziv: "Zelena salata"}
+    { img: Paprikacrvena, naziv: "Röd paprika" },
+    { img: Paprikazelena, naziv: "Grön paprika" },
+    { img: Paradajz, naziv: "Tomat" },
+    { img: Paskanat, naziv: "Palsternacka" },
+    { img: Persun, naziv: "Persilia" },
+    // förfölja
+    { img: Plavipatlidzan, naziv: "Äggplanta" },
+    { img: Praziluk, naziv: "Purjolök" },
+    { img: Rotkvabela, naziv: "Vit rädisa" },
+    { img: Rotkvacrna, naziv: "Rättika" },
+    { img: Tikvica, naziv: "Zucchini" },
+    { img: Zelenasalata, naziv: "Grönsallad"}
   ])
 
   useEffect(() => {
@@ -66,13 +67,12 @@ const Povrce = (props) => {
   return (
     <div className="Povrce">
       <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="Grönsaker" />
-      <p>
+      {/* <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book.
-      </p>
-      <p>Citat</p>
+      </p> */}
       <SwiperVoce content={povrce} height="30vh" autoplay="off" />
       {/* <p style={{marginTop:"50px",paddingBottom:"10px"}}>Lorem Ipsum is simply dummy text of the printing and typesetting
         industry</p> */}

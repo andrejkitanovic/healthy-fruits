@@ -6,11 +6,11 @@ import Jabuka from '../../../assets/images/jabuka.png'
 const OpisJabuka = (props) => {
 
     return <div className="OpisJabuka">
-        <h2>Jabuke</h2>
+        <h2>Äpplen</h2>
         <div className="flex">
             <img src={Jabuka} alt="Jabuke"/>
             <div className="text">
-                <p>Voće: Jabuka</p>
+                <p>Frukt: Äpplen</p>
                 <p>Osnovna pakovanja: Drvene,plastične,karton </p>
                 <p>Manja pakovanja: 4 kom. , 6 kom.</p>
                 <p>Veličine pakovanja: 2kg, 4kg, 6kg </p>
