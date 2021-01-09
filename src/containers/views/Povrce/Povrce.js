@@ -65,7 +65,7 @@ const Povrce = (props) => {
 
   return (
     <div className="Povrce">
-      <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="Povrce" />
+      <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="Grönsaker" />
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever

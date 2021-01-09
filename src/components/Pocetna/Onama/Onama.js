@@ -9,10 +9,10 @@ const onama = (props) => (
     <p>
       Vi är ett frukt- och grönsaksföretag som fokuserar på kvalitè och
       kundfokus. Vi som företag har stora visioner om att skapa en handelsbro
-      mellan Sverige och Balkan, häng gärna med på våran resa i att skapa en
+      mellan Balkan och Sverige, häng gärna med på våran resa i att skapa en
       förändring.
     </p>
-    <Link to="/o-nama">Lära sig mer</Link>
+    <Link to="/o-nama">Läs mer</Link>
   </div>
 );
 

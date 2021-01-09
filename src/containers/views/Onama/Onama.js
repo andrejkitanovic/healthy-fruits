@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-import './Onama.scss'
+import "./Onama.scss";
 
 // import Swiper from "../../../components/Swiper/Swiper";
 import ComponentOnama from "../../../components/Onama/Onama/Onama";
 // import Display from "../../../components/Onama/Display/Display";
 
-import Video1 from '../../../assets/images/snimak/video1.mp4'
-import Splash1 from '../../../assets/images/snimak/splash1.png'
-import Video2 from '../../../assets/images/snimak/video2.mp4'
-import Splash2 from '../../../assets/images/snimak/splash2.png'
+import Video1 from "../../../assets/images/snimak/video1.mp4";
+import Splash1 from "../../../assets/images/snimak/splash1.png";
+import Video2 from "../../../assets/images/snimak/video2.mp4";
+import Splash2 from "../../../assets/images/snimak/splash2.png";
 
 import Kamion from "../../../assets/images/kamion.png";
 import Overlay from "../../../assets/images/overlay.png";
@@ -29,9 +29,9 @@ const Onama = (props) => {
   const [activeImage, setActiveImage] = useState(0);
 
   useEffect(() => {
-    window.scrollTo(0,0)
-  },[])
-  
+    window.scrollTo(0, 0);
+  }, []);
+
   useEffect(() => {
     const changeActiveImage = () => {
       if (activeImage < 3) {
@@ -51,15 +51,13 @@ const Onama = (props) => {
   //   setActiveImage(position)
   // }
 
-
-
   return (
     <div className="Onama">
       {/* <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="O nama" /> */}
 
       <div className="glavna-pozadina">
         <img className="slika" src={Kamion} alt="Onama" />
-        <h1>O nama</h1>
+        <h1>Om oss</h1>
         <div className="overlay">
           <img src={Overlay} alt="Kontakt" />
         </div>
@@ -68,21 +66,18 @@ const Onama = (props) => {
       <ComponentOnama />
       {/* <Display content={swiperManji} active={activeImage} click={clickActiveImage}/> */}
       <div className="video-flex">
-        <video src={Video1} poster={Splash1} controls/>
-        <video src={Video2} poster={Splash2} controls/>
-
-      </div>a
+        <video src={Video1} poster={Splash1} controls />
+        <video src={Video2} poster={Splash2} controls />
+      </div>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic Lorem Ipsum is simply dummy
-        text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s, when an unknown
-        printer took a galley of type and scrambled it to make a type specimen
-        book. It has survived not only five centuries, but also the leap into
-        electronic
+        Vi vet med säkerhet att många varor från Balkan transporteras till bland
+        annat Holland, för att där sedan paketeras om och transporteras vidare
+        till andra länder inom EU, även till Sverige.
+        <br />
+        Efter en lång resa i att försäkra oss om att Balkans produkter kan
+        leverera den kvalitet och standard som Sverige och övriga Skandinavien
+        kräver, har vi noga granskat hundratals olika produkter runt om i Balkan
+        och kommit fram till att det absolut är möjligt.
       </p>
     </div>
   );
