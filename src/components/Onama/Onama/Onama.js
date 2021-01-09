@@ -10,9 +10,6 @@ const onama = (props) => (
       <p>
         Allt startade med en idé och i det här fallet blev den här idén
         verklighet.
-      </p>
-
-      <p>
         Vår ide var att skapa en handelsbro mellan Balkan och Sverige, en bro
         som skulle kunna visa Sverige vilka fantastiska frukter och grönsaker
         Balkan producerar.
@@ -24,9 +21,8 @@ const onama = (props) => (
         Holland m.m. och detta var något som vi ville ändra på.
       </p>
 
-      <p>Vi vill skapa en direktlinje mellan Balkan och Sverige.</p>
+      <p>Vi vill skapa en direktlinje mellan Balkan och Sverige.<br/>
 
-      <p>
         Vi vet med säkerhet att många varor från Balkan transporteras till bland
         annat Holland, för att där sedan paketeras om och transporteras vidare
         till andra länder inom EU, även till Sverige.
@@ -41,10 +37,7 @@ const onama = (props) => (
 
       <p>
         Alla produkter som läggs ut på vår hemsida kan vi med gott samvete säga
-        att vi kan matcha övriga leverantörer i EU och omvärlden.
-      </p>
-
-      <p>
+        att vi kan matcha övriga leverantörer i EU och omvärlden.<br/>
         Vårat mål är att skapa långvariga samarbeten och jobbar efter kundens
         behov, både under säsong och övriga året med det som är aktuellt.
       </p>
@@ -57,10 +50,7 @@ const onama = (props) => (
       <p>
         Vårt mål har hela tiden varit att ena de olika odlarna, om att i ett
         längre samarbete med Sverige kunna motivera att odla helt efter
-        kundernas behov.
-      </p>
-
-      <p>
+        kundernas behov.<br/>
         Detta har mottagits väldigt bra av odlarna i Balkan så länge ett avtal
         följs upp. Vi står för att allt går rätt till från jord till bord.
       </p>

@@ -32,29 +32,29 @@ const Voce = (props) => {
 
   const [svezeVoce] = useState([
     { img: Borovnice, naziv: "Blåbär" },
-    { img: Jagode, naziv: "Jordgubbe" },
+    { img: Jagode, naziv: "Jordgubbar" },
     { img: Tresnje, naziv: "Körsbär" },
     { img: Sljiva, naziv: "Plommon" },
     { img: Kajsija, naziv: "Aprikos" },
-    { img: Nektarina, naziv: "Nektarina" },
-    { img: Breskva, naziv: "Breskve" },
-    { img: Kruska, naziv: "Kruska" },
-    { img: Jabuke, naziv: "Jabuka" },
-    { img: Lubenica, naziv: "Lubenica" },
+    { img: Nektarina, naziv: "Nektarin" },
+    { img: Breskva, naziv: "Persika" },
+    { img: Kruska, naziv: "Päron" },
+    { img: Jabuke, naziv: "Äpple" },
+    { img: Lubenica, naziv: "Vattenmelon" },
   ]);
   const [smrznutoVoce] = useState([
-    { img: Malina, naziv: "Malina" },
-    { img: Borovnice, naziv: "Borovnica" },
-    { img: Jagode, naziv: "Jagoda" },
-    { img: Kupina, naziv: "Kupina" },
-    { img: Tresnje, naziv: "Visnja" },
-    { img: Sljiva, naziv: "Sljiva" },
+    { img: Malina, naziv: "Hallon" },
+    { img: Borovnice, naziv: "Blåbär" },
+    { img: Jagode, naziv: "Jordgubbar" },
+    { img: Kupina, naziv: "Björnbär" },
+    { img: Tresnje, naziv: "Körsbär" },
+    { img: Sljiva, naziv: "Plommon" },
     { img: Mix, naziv: "Mix" },
   ]);
 
   const [susenoVoce] = useState([
-    { img: Tresnje, naziv: "Visnja" },
-    { img: Sljiva, naziv: "Sljiva" },
+    { img: Tresnje, naziv: "Körsbär" },
+    { img: Sljiva, naziv: "Plommon" },
   ]);
   const [kategorija, setKategorija] = useState(0);
 
@@ -77,7 +77,7 @@ const Voce = (props) => {
         overlay
         minilogo
         height="70vh"
-        title="Frukt"
+        title="Frukt och bär"
       />
       <KategorijaVoca
         kategorija={kategorija}
