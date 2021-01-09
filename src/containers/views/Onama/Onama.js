@@ -69,16 +69,6 @@ const Onama = (props) => {
         <video src={Video1} poster={Splash1} controls />
         <video src={Video2} poster={Splash2} controls />
       </div>
-      <p>
-        Vi vet med säkerhet att många varor från Balkan transporteras till bland
-        annat Holland, för att där sedan paketeras om och transporteras vidare
-        till andra länder inom EU, även till Sverige.
-        <br />
-        Efter en lång resa i att försäkra oss om att Balkans produkter kan
-        leverera den kvalitet och standard som Sverige och övriga Skandinavien
-        kräver, har vi noga granskat hundratals olika produkter runt om i Balkan
-        och kommit fram till att det absolut är möjligt.
-      </p>
     </div>
   );
 };

@@ -31,11 +31,11 @@ const Voce = (props) => {
   ]);
 
   const [svezeVoce] = useState([
-    { img: Borovnice, naziv: "Borovnica" },
-    { img: Jagode, naziv: "Jagoda" },
-    { img: Tresnje, naziv: "Tresnja" },
-    { img: Sljiva, naziv: "Sljiva" },
-    { img: Kajsija, naziv: "Kajsija" },
+    { img: Borovnice, naziv: "Blåbär" },
+    { img: Jagode, naziv: "Jordgubbe" },
+    { img: Tresnje, naziv: "Körsbär" },
+    { img: Sljiva, naziv: "Plommon" },
+    { img: Kajsija, naziv: "Aprikos" },
     { img: Nektarina, naziv: "Nektarina" },
     { img: Breskva, naziv: "Breskve" },
     { img: Kruska, naziv: "Kruska" },
