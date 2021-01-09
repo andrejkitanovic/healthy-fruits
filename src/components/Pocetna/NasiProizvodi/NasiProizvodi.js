@@ -12,19 +12,19 @@ import { Link } from "react-router-dom";
 const nasiProizvodi = (props) => (
   <div className="NasiProizvodi">
     <img className="pozadina" src={Pozadina} alt="Proizvodi" />
-    <h2>Nasi Proizvodi</h2>
+    <h2>Våra produkter</h2>
     <div className="proizvodi">
       <Link to="/voce">
         <img src={Voce} alt="Voce" />
-        <p>Voce</p>
+        <p>Frukt</p>
       </Link>
       <Link to="/povrce">
         <img src={Povrce} alt="Voce" />
-        <p>Povrce</p>
+        <p>Grönsaker</p>
       </Link>
       <Link to="/jabuke">
         <img src={Jabuka} alt="Voce" style={{ marginLeft: "15px" }} />
-        <p>Jabuke</p>
+        <p>Äpplen</p>
       </Link>
     </div>
     {/* <p>
@@ -34,8 +34,9 @@ const nasiProizvodi = (props) => (
       make a type specimen book.
     </p> */}
     <p className="citat">
-      "Ništa neće koristiti ljudskom zdravlju i povećati šanse za opstanak života
-      na Zemlji toliko kao evolucija do vegetarijanske dijete." - Albert Einstein
+      "Vegetarian food leaves a deep impression on our nature. If the whole
+      world adopts vegetarianism, it can change the destiny of humankind." -
+      Albert Einstein
     </p>
   </div>
 );

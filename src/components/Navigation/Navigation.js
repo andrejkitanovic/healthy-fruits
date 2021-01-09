@@ -7,11 +7,11 @@ const navigation = (props) => (
   <div className="Navigation">
     <img src={Logo} alt="Logo" />
     <div className="links">
-      <NavLink to="/" exact>Pocetna</NavLink>
-      <NavLink to="/o-nama">O nama</NavLink>
-      <NavLink to="/voce">Voce</NavLink>
-      <NavLink to="/povrce">Povrce</NavLink>
-      <NavLink to="/jabuke">Jabuke</NavLink>
+      <NavLink to="/" exact>Hem</NavLink>
+      <NavLink to="/o-nama">Om oss</NavLink>
+      <NavLink to="/voce">Frukt</NavLink>
+      <NavLink to="/povrce">Grönsaker</NavLink>
+      <NavLink to="/jabuke">Äpplen</NavLink>
       <NavLink to="/kontakt">Kontakt</NavLink>
     </div>
     <div className={"hamburger" + (props.active ? " active" : "")} onClick={props.openNav}>
@@ -23,3 +23,4 @@ const navigation = (props) => (
 )
 
 export default navigation
+
