@@ -61,9 +61,9 @@ const Jabuke = (props) => {
       <OpisJabuka open={() => setModal(true)} />
       {modal ? <Pakovanja  close={() => setModal(false)} /> : null}
       <ProcesProizvodnje />
-      <h2>Komercijalne sorte</h2>
+      <h2>Kommersiella sorter</h2>
       <SwiperVoce content={komercijalne} height="30vh" autoplay="off" />
-      <h2>Klub sorte</h2>
+      <h2>Klubb sorter</h2>
       <SwiperVoce content={klub} height="30vh" autoplay="off" />
       <p className="description">
         <strong>

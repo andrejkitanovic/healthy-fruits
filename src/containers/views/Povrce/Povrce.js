@@ -43,7 +43,7 @@ const Povrce = (props) => {
     { img: Krompir , naziv: "Potatis"},
     { img: Luksutkasrebrenjaka, naziv: "Silver sutka lök" },
     { img: Mladcrniluk, naziv: "Purjo lök" },
-    { img: Mladkrompir, naziv: "Unga potatisar" },
+    { img: Mladkrompir, naziv: "Färsk potatis" },
     { img: Paprikacrvena, naziv: "Röd paprika" },
     { img: Paprikazelena, naziv: "Grön paprika" },
     { img: Paradajz, naziv: "Tomat" },
