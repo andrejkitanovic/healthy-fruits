@@ -13,6 +13,8 @@ import Breburn from "../../../assets/images/jabuke/komercijalne/breburn.png";
 import Fuji from "../../../assets/images/jabuke/komercijalne/fuji.png";
 import GrannySmith from "../../../assets/images/jabuke/komercijalne/grennysmith.png";
 import Gala from "../../../assets/images/jabuke/komercijalne/gala.png";
+import Jonagold from "../../../assets/images/jabuke/komercijalne/jonagold.png";
+
 
 import Sweettango from "../../../assets/images/jabuke/klub/sweettango.png";
 import Kiku from "../../../assets/images/jabuke/klub/kiku.png";
@@ -33,7 +35,7 @@ const Jabuke = (props) => {
     { img: ZlatniDelises, naziv: "Zlatni delises" },
     { img: Fuji, naziv: "Fuji" },
     { img: Breburn, naziv: "Braeburn" },
-    { img: Sweettango, naziv: "Jona gold" },
+    { img: Jonagold, naziv: "Jona gold" },
     { img: Gala, naziv: "Gala" },
     { img: CrveniDelises, naziv: "Crveni delises" }
     

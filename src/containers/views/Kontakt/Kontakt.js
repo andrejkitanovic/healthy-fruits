@@ -17,6 +17,7 @@ const Kontakt = (props) => {
     <div className="Kontakt">
       <div className="glavna-pozadina">
         <img className="slika" src={Zgrada} alt="Plantaza" />
+        <h1>Kontakt</h1>
         <div className="overlay">
           <img src={Overlay} alt="Kontakt" />
         </div>

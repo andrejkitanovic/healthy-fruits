@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './Onama.scss'
 
-import Swiper from "../../../components/Swiper/Swiper";
+// import Swiper from "../../../components/Swiper/Swiper";
 import ComponentOnama from "../../../components/Onama/Onama/Onama";
 // import Display from "../../../components/Onama/Display/Display";
 
@@ -11,14 +11,15 @@ import Video2 from '../../../assets/images/snimak/video2.mp4'
 import Splash2 from '../../../assets/images/snimak/splash2.png'
 
 import Kamion from "../../../assets/images/kamion.png";
+import Overlay from "../../../assets/images/overlay.png";
 
 let changeImage = null;
 
 const Onama = (props) => {
-  const [swiperGlavni] = useState([
-    { img: Kamion },
-    { img: Kamion },
-  ]);
+  // const [swiperGlavni] = useState([
+  //   { img: Kamion },
+  //   { img: Kamion },
+  // ]);
   // const [swiperManji] = useState([
   //   { img: Kamion },
   //   { img: Kamion },
@@ -54,7 +55,15 @@ const Onama = (props) => {
 
   return (
     <div className="Onama">
-      <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="O nama" />
+      {/* <Swiper key={1} content={swiperGlavni} overlay minilogo height="70vh" title="O nama" /> */}
+
+      <div className="glavna-pozadina">
+        <img className="slika" src={Kamion} alt="Onama" />
+        <h1>O nama</h1>
+        <div className="overlay">
+          <img src={Overlay} alt="Kontakt" />
+        </div>
+      </div>
 
       <ComponentOnama />
       {/* <Display content={swiperManji} active={activeImage} click={clickActiveImage}/> */}

@@ -7,7 +7,7 @@ import SwiperVoce from '../../../components/Voce/SwiperVoce/SwiperVoce'
 
 // import Jagode from '../../../assets/images/swiper-jagode.jpg'
 import VoceSwiper from '../../../assets/images/swiper-voce.jpg'
-import VoceSwiper2 from '../../../assets/images/swiper-voce2.jpg'
+// import VoceSwiper2 from '../../../assets/images/swiper-voce2.jpg'
 
 import Borovnice from '../../../assets/images/voce/sveze/borovnice.png'
 import Breskva from '../../../assets/images/voce/sveze/breskva.png'
@@ -18,6 +18,7 @@ import Sljiva from '../../../assets/images/voce/sveze/sljiva.png'
 import Tresnje from '../../../assets/images/voce/sveze/tresnje.png'
 import Jabuke from '../../../assets/images/voce/sveze/jabuke.png'
 import Lubenica from '../../../assets/images/voce/sveze/lubenica.png'
+import Kruska from '../../../assets/images/voce/sveze/kruska.png'
 
 import Kupina from '../../../assets/images/voce/smrznuto/kupina.png'
 import Malina from '../../../assets/images/voce/smrznuto/maline.png'
@@ -26,7 +27,7 @@ import Mix from '../../../assets/images/voce/smrznuto/mix.png'
 const Voce = (props) => {
   const [swiperGlavni] = useState([
     { img: VoceSwiper },
-    { img: VoceSwiper2 },
+    // { img: VoceSwiper2 },
   ])
 
   const [svezeVoce] = useState([
@@ -37,7 +38,7 @@ const Voce = (props) => {
     { img: Kajsija, naziv: "Kajsija" },
     { img: Nektarina, naziv: "Nektarina" },
     { img: Breskva, naziv: "Breskve" },
-    { img: Lubenica, naziv: "Kruska" },
+    { img: Kruska, naziv: "Kruska" },
     { img: Jabuke, naziv: "Jabuka"},
     { img: Lubenica, naziv: "Lubenica" },
   

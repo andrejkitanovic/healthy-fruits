@@ -27,26 +27,61 @@
 
     .pakovanje {
       display: flex;
-      flex-direction: column;
+      // flex-direction: column;
+      padding-right: 15px;
       justify-content: center;
       align-items: center;
       width: 100%;
       margin-top: 50px;
-      height: 280px;
+      height: 350px;
       border: 4px solid #b2cb06;
       box-sizing: border-box;
       border-radius: 25px;
 
-      &:last-of-type{
-          margin-bottom: 50px;
+      &:last-of-type {
+        margin-bottom: 50px;
       }
 
+      .opis {
+        display: flex;
+        flex-direction: column;
+        height: 290px;
+        
+        ul{
+          margin-left: -20px;
+          li{
+            margin-bottom: 5px;
+          }
+        }
 
-      p{
-          margin-top: 20px;
+        p {
+          margin:0;
+          margin-bottom: 10px;
+          padding: 0;
           font-weight: bold;
           text-transform: uppercase;
-          color:#b2cb06;
+          color: #b2cb06;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width:1200px){
+  .Pakovanja {
+    .box{
+      width: 300px;
+
+      .pakovanje{
+        display: block;
+        padding:10px 20px;
+        // height: 500px;
+        height: auto;
+
+        .opis{
+          height: auto;
+        }
       }
     }
   }
