@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Swiper from '../../../components/Swiper/Swiper'
 import SwiperVoce from '../../../components/Voce/SwiperVoce/SwiperVoce'
 
-import PovrceSl from '../../../assets/images/povrce-swiper.webp'
+import PovrceSl from '../../../assets/images/povrce-swiper.png'
 // import SwiperPovrce from '../../../assets/images/swiper-povrce.jpg'
 
 import Brokoli from '../../../assets/images/povrce/brokoli.png'
