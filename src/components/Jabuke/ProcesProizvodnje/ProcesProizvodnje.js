@@ -12,7 +12,7 @@ const ProcesProizvodnje = (props) => {
       <div className="flex">
         <img src={ZlatniDelises} alt="Zlatni delises" />
         <p>
-          Äppelföretagen som vi samarbetar med följer noga de senaste
+          Företagen som vi samarbetar med följer noga de senaste
           utvecklingarna och förbättras kontinuerligt med nya system och kyl
           anläggningar. Äppelfälten är utrustade med antifrost system,
           bevattningssystem och skydd mot hagel.
