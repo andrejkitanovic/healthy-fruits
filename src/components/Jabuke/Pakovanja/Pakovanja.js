@@ -28,6 +28,7 @@ const Pakovanja = (props) => {
           <div className="opis">
             <p>Foodtainer 4</p>
             <ul>
+              <li>Kartong</li>
               <li>Polystyren / polypropen</li>
             </ul>
           </div>
@@ -109,9 +110,6 @@ const Pakovanja = (props) => {
             </ul>
           </div>
         </div>
-
-     
-   
       </div>
     </div>
   );
