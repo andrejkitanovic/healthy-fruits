@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Swiper from '../../../components/Swiper/Swiper'
 import SwiperVoce from '../../../components/Voce/SwiperVoce/SwiperVoce'
 
-import PovrceSl from '../../../assets/images/povrce-swiper.png'
+import PovrceSl from '../../../assets/images/povrce-swiper.webp'
 // import SwiperPovrce from '../../../assets/images/swiper-povrce.jpg'
 
 import Brokoli from '../../../assets/images/povrce/brokoli.png'
@@ -41,16 +41,16 @@ const Povrce = (props) => {
     { img: Karfiol , naziv: "Blomkål"},
     { img: Krastavac , naziv: "Gurka"},
     { img: Krompir , naziv: "Potatis"},
-    { img: Luksutkasrebrenjaka, naziv: "Silver sutka lök" },
-    { img: Mladcrniluk, naziv: "Purjo lök" },
+    { img: Luksutkasrebrenjaka, naziv: "Gul lök" },
+    { img: Mladcrniluk, naziv: "Färsk lök" },
     { img: Mladkrompir, naziv: "Färsk potatis" },
     { img: Paprikacrvena, naziv: "Röd paprika" },
     { img: Paprikazelena, naziv: "Grön paprika" },
     { img: Paradajz, naziv: "Tomat" },
     { img: Paskanat, naziv: "Palsternacka" },
-    { img: Persun, naziv: "Persilia" },
+    { img: Persun, naziv: "Persilja" },
     // förfölja
-    { img: Plavipatlidzan, naziv: "Äggplanta" },
+    { img: Plavipatlidzan, naziv: "Aubergine" },
     { img: Praziluk, naziv: "Purjolök" },
     { img: Rotkvabela, naziv: "Vit rädisa" },
     { img: Rotkvacrna, naziv: "Rättika" },

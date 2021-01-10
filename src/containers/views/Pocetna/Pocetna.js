@@ -6,9 +6,9 @@ import Onama from '../../../components/Pocetna/Onama/Onama'
 import NasiProizvodi from '../../../components/Pocetna/NasiProizvodi/NasiProizvodi'
 import ZagarantovanKvalitet from '../../../components/Pocetna/ZagarantovanKvalitet/ZagarantovanKvalitet'
 
-import Grozdje from '../../../assets/images/grozdje.png'
+import Grozdje from '../../../assets/images/grozdje.webp'
 
-import Plantaza from '../../../assets/images/plantaza-jabuka.png'
+import Plantaza from '../../../assets/images/plantaza-jabuka.webp'
 import Logo from '../../../assets/images/logo-swiper.png'
 import Overlay from '../../../assets/images/overlay.png'
 
