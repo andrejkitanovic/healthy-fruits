@@ -7,31 +7,26 @@ import PlantazaJabuka from "../../../assets/images/jabuke/plantaza.jpg";
 const ProcesProizvodnje = (props) => {
   return (
     <div className="ProcesProizvodnje">
-      <h2>Proces proizvodnje i zagarantovan kvalitet</h2>
+      <h2>Produktionsprocess och garanterad kvalitet</h2>
 
       <div className="flex">
         <img src={ZlatniDelises} alt="Zlatni delises" />
         <p>
-          Nasi vocnjaci sadrzi zaštita od nepovoljnih klimatskih faktora ,
-          kvalitetan sadni materijal,kvalitetnu prihranu i navodnjavanje.Voćnjak
-          je opremljen sistemom protiv izmrzavanja (antifrost sistem), sistemom
-          za navodnjavanje (irigacionim sistemom), sistemom za prihranu
-          (fertigacionim sitemom) kao i sistemom protivgradne zaštite, što ga
-          čini najsavremenijim i najvećim voćnjakom ovog tipa u Evropi.
-          Celokupna proizvodnja jabuke se odvija po GLOBAL GAP sistemu, što
-          obezbeđuje izvozni kvalitet.
+          Äpple företagen som vi samarbetar med följer noga de senaste
+          utvecklingarna och förbättras hela tiden med nya system och kyl
+          förråd. Äpple fälten är utrustade med antifrost system,
+          bevattningssystem och skydd mot hagel.
         </p>
       </div>
 
       <div className="flex">
         <p>
-          U sklopu voćnjaka nalaze se i Ultra Low Oxygen hladnjača ukupnog
-          kapaciteta 20.000 tona, koje zahvaljujući dinamičkoj atmosferi
-          omogućavaju da se kompletan rod jabuka po potrebi čuva u komorama i do
-          300 dana. Jedna od specifičnosti hladnjača sa dinamičkom atmosferom
-          jeste da ubrane jabuke ulaze direktno u komoru, bez ikakvog hemijskog
-          tretiranja, kao što je to praksa kod standardnih ULO hladnjača. Sve
-          vreme boravka atmosferski sastav prilagođava se potrebama jabuke!
+          Allt som görs är noga utfört inom GLOBAL GAPS villkor, vilket ger en
+          kvalitet som går att exportera över hela världen. Kyl förråden är
+          utrustade med Ultra Low Oxygen och har en kapacitet på 20000 ton,
+          detta möjliggör att hela äpple skörden kan förvaras i upp till 300
+          dagar. I kylrummen är även MafRoda system installerat som sorterar
+          äpplena efter vikt, färg och diameter.
         </p>
         <img className="plantaza" src={PlantazaJabuka} alt="Zlatni delises" />
       </div>

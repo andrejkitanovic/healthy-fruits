@@ -15,7 +15,6 @@ import GrannySmith from "../../../assets/images/jabuke/komercijalne/grennysmith.
 import Gala from "../../../assets/images/jabuke/komercijalne/gala.png";
 import Jonagold from "../../../assets/images/jabuke/komercijalne/jonagold.png";
 
-
 import Sweettango from "../../../assets/images/jabuke/klub/sweettango.png";
 import Kiku from "../../../assets/images/jabuke/klub/kiku.png";
 import Isaq from "../../../assets/images/jabuke/klub/isaq.png";
@@ -31,14 +30,13 @@ import Pakovanja from "../../../components/Jabuke/Pakovanja/Pakovanja";
 const Jabuke = (props) => {
   const [modal, setModal] = useState(false);
   const [komercijalne] = useState([
-    { img: GrannySmith, naziv: "Granny smith" },    
-    { img: ZlatniDelises, naziv: "Zlatni delises" },
+    { img: GrannySmith, naziv: "Granny smith" },
+    { img: ZlatniDelises, naziv: "Golden deliciuos" },
     { img: Fuji, naziv: "Fuji" },
     { img: Breburn, naziv: "Braeburn" },
     { img: Jonagold, naziv: "Jona gold" },
     { img: Gala, naziv: "Gala" },
-    { img: CrveniDelises, naziv: "Crveni delises" }
-    
+    { img: CrveniDelises, naziv: "Red deliciuos" },
   ]);
 
   const [klub] = useState([
@@ -50,7 +48,6 @@ const Jabuke = (props) => {
     { img: Rubens, naziv: "Rubens" },
     { img: Kiku, naziv: "Kiku" },
     { img: Sweettango, naziv: "Sweet tango" },
-    
   ]);
 
   return (
@@ -59,7 +56,7 @@ const Jabuke = (props) => {
         <img src={PrikazJabuka} alt="Jabuka" />
       </div>
       <OpisJabuka open={() => setModal(true)} />
-      {modal ? <Pakovanja  close={() => setModal(false)} /> : null}
+      {modal ? <Pakovanja close={() => setModal(false)} /> : null}
       <ProcesProizvodnje />
       <h2>Kommersiella sorter</h2>
       <SwiperVoce content={komercijalne} height="30vh" autoplay="off" />
@@ -67,9 +64,9 @@ const Jabuke = (props) => {
       <SwiperVoce content={klub} height="30vh" autoplay="off" />
       <p className="description">
         <strong>
-          Klupske jabuke predstavljaju ekskluzivne jabuke koje mogu da proizvode
-          samo proizvođači koji su u svom radu pokazali izuzetne rezultate i
-          privrženost bezbednosti i kvalitetu proizvoda.
+          Club-äpplen är exklusiva äpplen som endast kan produceras av
+          producenter som har visat exceptionella resultat i sitt arbete och
+          engagemang för säkerhet och produktkvalitet.
         </strong>
       </p>
       <Tehnologija />

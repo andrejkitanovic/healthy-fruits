@@ -20,8 +20,6 @@ const swiper = (props) => {
     </SwiperSlide>
   ))
 
-  console.log(window.innerWidth)
-
   return (
     <div className={'SwiperVoce'}>
       <Swiper
