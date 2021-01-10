@@ -12,12 +12,14 @@ import Voce from './containers/views/Voce/Voce'
 import Povrce from './containers/views/Povrce/Povrce'
 // import Proizvodi from './containers/views/Proizvodi/Proizvodi'
 import Jabuka from './containers/views/Jabuka/Jabuka'
+import AnimationEnter from './hoc/AnimationEnter/AnimationEnter'
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <PageLayout>
+          <AnimationEnter>
           <Switch>
             <Route path="/" exact component={Pocetna} />
             <Route path="/o-nama" component={Onama} />
@@ -29,6 +31,7 @@ function App() {
             {/* <Route path="/proizvodi" component={Proizvodi} /> */}
             <Redirect to="/" />
           </Switch>
+          </AnimationEnter>
         </PageLayout>
       </BrowserRouter>
     </div>
