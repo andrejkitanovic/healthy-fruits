@@ -5,6 +5,7 @@
     margin:0 auto;
     border-bottom: 2px solid #e7e7e7;
     padding-bottom: 30px;
+    min-width: 1000px;
 
     a{
         margin:0 auto;
@@ -31,6 +32,8 @@
 @media (max-width:1024px){
     .NasKontakt{
         display:block;
+        min-width: 300px;
+
 
         p,a{
             justify-content: center;
