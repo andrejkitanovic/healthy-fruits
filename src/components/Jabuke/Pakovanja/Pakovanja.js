@@ -9,7 +9,7 @@ import pakovanje4 from "../../../assets/images/pakovanje4.png";
 import kutija1 from "../../../assets/images/kutija1.png";
 import kutija2 from "../../../assets/images/kutija2.png";
 import kutija3 from "../../../assets/images/kutija3.png";
-// import kutija4 from "../../../assets/images/kutija4.png";
+import kutija4 from "../../../assets/images/kutija4.png";
 // import kutija5 from "../../../assets/images/kutija5.png";
 // import kutija6 from "../../../assets/images/kutija6.png";
 // import kutija7 from "../../../assets/images/kutija7.png";
@@ -107,6 +107,22 @@ const Pakovanja = (props) => {
               <li>Baslager 5 x 18 lager = 90 kartonger</li>
               <li>EUROPALLET 80 x 120 cm</li>
               <li>Baslager 4 x 18 lager = 72 kartonger</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="pakovanje">
+          <img src={kutija4} alt="pakovanje" />
+          <div className="opis">
+            <p>Plato</p>
+            <ul>
+              <li>2 lager</li>
+              <li>B 40 / L 60 / H 17 cm</li>
+              <li>Unfärlig vikt 12-14 kg</li>
+              <li>PALLET 100 x 120 cm</li>
+              <li>Baslager 5 x 12 lager = 60 kartonger</li>
+              <li>EUROPALLET 80 x 120 cm</li>
+              <li>Baslager 4 x 12 lager = 48 kartonger</li>
             </ul>
           </div>
         </div>

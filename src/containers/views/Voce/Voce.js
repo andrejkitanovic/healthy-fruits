@@ -19,10 +19,14 @@ import Tresnje from "../../../assets/images/voce/sveze/tresnje.png";
 import Jabuke from "../../../assets/images/voce/sveze/jabuke.png";
 import Lubenica from "../../../assets/images/voce/sveze/lubenica.png";
 import Kruska from "../../../assets/images/voce/sveze/kruska.png";
+import Grozdje from "../../../assets/images/voce/sveze/grozdje.png";
 
 import Kupina from "../../../assets/images/voce/smrznuto/kupina.png";
 import Malina from "../../../assets/images/voce/smrznuto/maline.png";
 import Mix from "../../../assets/images/voce/smrznuto/mix.png";
+
+import SuvaSljiva from "../../../assets/images/voce/suseno/suvasljiva.png";
+import SuvaVisnja from "../../../assets/images/voce/suseno/suvavisnja.png";
 
 const Voce = (props) => {
   const [swiperGlavni] = useState([
@@ -35,6 +39,7 @@ const Voce = (props) => {
     { img: Jagode, naziv: "Jordgubbar" },
     { img: Tresnje, naziv: "Körsbär" },
     { img: Sljiva, naziv: "Plommon" },
+    { img: Grozdje, naziv: "Druvor" },
     { img: Kajsija, naziv: "Aprikos" },
     { img: Nektarina, naziv: "Nektarin" },
     { img: Breskva, naziv: "Persika" },
@@ -53,8 +58,8 @@ const Voce = (props) => {
   ]);
 
   const [susenoVoce] = useState([
-    { img: Tresnje, naziv: "Körsbär" },
-    { img: Sljiva, naziv: "Plommon" },
+    { img: SuvaVisnja, naziv: "Körsbär" },
+    { img: SuvaSljiva, naziv: "Plommon" },
   ]);
   const [kategorija, setKategorija] = useState(0);
 
