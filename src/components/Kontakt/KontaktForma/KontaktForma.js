@@ -3,29 +3,34 @@ import "./KontaktForma.scss";
 
 import emailjs from "emailjs-com";
 
-const kontaktForma = () => {
+const KontaktForma = () => {
   const sendMail = (e) => {
     e.preventDefault(); // Prevents default refresh by the browser
+    emailjs.init("user_m5hXiIuk1iUHwe4fmK8j6");
+    // emailjs.sendForm("user_m5hXiIuk1iUHwe4fmK8j6",'template_vmor4be', e.target,"user_m5hXiIuk1iUHwe4fmK8j6").then(
+    //   (result) => {
+    //     alert("Message Sent, I'll get back to you shortly", result.text);
+    //   },
+    //   (error) => {
+    //       console.log(error)
+    //     alert("An error occured, Plese try again", error.text);
+    //   }
+    // );
 
-    emailjs.sendForm("gmail",'template_vmor4be', e.target, 'user_m5hXiIuk1iUHwe4fmK8j6').then(
-      (result) => {
-        alert("Message Sent, I'll get back to you shortly", result.text);
+    emailjs.send("service_juismn6", "template_vmor4be", {
+        namn:e.target.namn.value,
+        efternamn:e.target.efternamn.value,
+        telefon:e.target.telefon.value,
+        email:e.target.email.value,
+        message:e.target.message.value
+    }).then(
+      function (response) {
+        alert("Meddelande skickat!")
       },
-      (error) => {
-          console.log(error)
-        alert("An error occured, Plese try again", error.text);
+      function (error) {
+        console.log("FAILED...", error);
       }
     );
-
-    // console.log(e.target.namn.value)
-    // emailjs.send("service_c4eaya5", "template_vmor4be", {
-    //   namn: e.target.namn.value,
-    //   efternamn: e.target.efternamn.value,
-    //   to_name: "Andrej",
-    //   from_name: e.target.namn.value + " " + e.target.efternamn.value,
-    //   message: e.target.message.value,
-    //   email: e.target.email.value,
-    // });
   };
 
   return (
@@ -44,4 +49,4 @@ const kontaktForma = () => {
   );
 };
 
-export default kontaktForma;
+export default KontaktForma;
