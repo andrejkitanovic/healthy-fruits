@@ -19,7 +19,7 @@ const sideMenu = (props) => (
       <NavLink to="/kontakt" onClick={props.closeNav}>Kontakt</NavLink>
     </div>
     <div className="kontakt">
-        <a href="mailto:christianbostrom@me.com"><MdMail /></a>
+        <a href="mailto:christian@dinfrukt.se"><MdMail /></a>
         <a href="tel:+46723595987"><MdPhone /></a>
         <a href="#footer"><MdLocationOn /></a>
       </div>
