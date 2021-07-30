@@ -15,14 +15,14 @@ import GrannySmith from "../../../assets/images/jabuke/komercijalne/grennysmith.
 import Gala from "../../../assets/images/jabuke/komercijalne/gala.png";
 import Jonagold from "../../../assets/images/jabuke/komercijalne/jonagold.png";
 
-import Sweettango from "../../../assets/images/jabuke/klub/sweettango.png";
-import Kiku from "../../../assets/images/jabuke/klub/kiku.png";
-import Isaq from "../../../assets/images/jabuke/klub/isaq.png";
-import Rubens from "../../../assets/images/jabuke/klub/rubens.png";
-import Redmoon from "../../../assets/images/jabuke/klub/redmoon.png";
-import Modi from "../../../assets/images/jabuke/klub/modi.png";
-import Ewelina from "../../../assets/images/jabuke/klub/ewelina.png";
-import PinkLady from "../../../assets/images/jabuke/klub/pinklady.png";
+// import Sweettango from "../../../assets/images/jabuke/klub/sweettango.png";
+// import Kiku from "../../../assets/images/jabuke/klub/kiku.png";
+// import Isaq from "../../../assets/images/jabuke/klub/isaq.png";
+// import Rubens from "../../../assets/images/jabuke/klub/rubens.png";
+// import Redmoon from "../../../assets/images/jabuke/klub/redmoon.png";
+// import Modi from "../../../assets/images/jabuke/klub/modi.png";
+// import Ewelina from "../../../assets/images/jabuke/klub/ewelina.png";
+// import PinkLady from "../../../assets/images/jabuke/klub/pinklady.png";
 import Tehnologija from "../../../components/Jabuke/Tehnologija/Tehnologija";
 
 import Pakovanja from "../../../components/Jabuke/Pakovanja/Pakovanja";
@@ -39,16 +39,16 @@ const Jabuke = (props) => {
     { img: CrveniDelises, naziv: "Red deliciuos" },
   ]);
 
-  const [klub] = useState([
-    { img: PinkLady, naziv: "Pink lady" },
-    { img: Ewelina, naziv: "Ewelina" },
-    { img: Modi, naziv: "Modi" },
-    { img: Isaq, naziv: "Isaq" },
-    { img: Redmoon, naziv: "Red moon" },
-    { img: Rubens, naziv: "Rubens" },
-    { img: Kiku, naziv: "Kiku" },
-    { img: Sweettango, naziv: "Sweet tango" },
-  ]);
+  // const [klub] = useState([
+  //   { img: PinkLady, naziv: "Pink lady" },
+  //   { img: Ewelina, naziv: "Ewelina" },
+  //   { img: Modi, naziv: "Modi" },
+  //   { img: Isaq, naziv: "Isaq" },
+  //   { img: Redmoon, naziv: "Red moon" },
+  //   { img: Rubens, naziv: "Rubens" },
+  //   { img: Kiku, naziv: "Kiku" },
+  //   { img: Sweettango, naziv: "Sweet tango" },
+  // ]);
 
   return (
     <div className="Jabuke">
@@ -60,7 +60,7 @@ const Jabuke = (props) => {
       <ProcesProizvodnje />
       <h2>Kommersiella sorter</h2>
       <SwiperVoce content={komercijalne} height="30vh" autoplay="off" />
-      <h2>Klubb sorter</h2>
+      {/* <h2>Klubb sorter</h2>
       <SwiperVoce content={klub} height="30vh" autoplay="off" />
       <p className="description">
         <strong>
@@ -68,7 +68,7 @@ const Jabuke = (props) => {
           producenter som har visat exceptionella resultat i sitt arbete och
           engagemang för säkerhet och produktkvalitet.
         </strong>
-      </p>
+      </p> */}
       <Tehnologija />
 
       <ZagarantovanKvalitet />
